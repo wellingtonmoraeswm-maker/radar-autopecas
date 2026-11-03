@@ -34,7 +34,7 @@ async function apiEstatica(caminho) {
     const d = await lerEstatico(`noticias-${q.get("visao") || "V01"}.json`);
     const base = (await lerEstatico("estado.json")).exportado_em;
     const fim = q.get("de") ? (q.get("ate") || base) : base;
-    const inicio = q.get("de") || somarDias(base, -(({ dia: 1, semana: 7, mes: 30 }[q.get("periodo")] || 7) - 1));
+    const inicio = q.get("de") || somarDias(base, -(({ dia: 1, semana: 7, mes: 30, semestre: 182 }[q.get("periodo")] || 7) - 1));
     return { ...d, inicio, fim, noticias: d.noticias.filter((n) => n.data >= inicio && n.data <= fim) };
   }
   throw new Error("indisponível na demonstração");

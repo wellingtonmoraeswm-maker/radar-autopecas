@@ -4,6 +4,7 @@ Uso (na raiz do repositorio):
     python -m coleta.rodar                    todas as fontes ativas com conector radar:*
     python -m coleta.rodar --ids S20,S21      fontes especificas (qualquer status)
     python -m coleta.rodar --ids S20 --ensaio testa sem gravar nada e mostra exemplos
+    python -m coleta.rodar --historico 182    busca tambem o passado (conectores que sabem, ex.: RSS)
 
 Grava em dados_processados/: noticias.jsonl, series.jsonl e execucoes.jsonl.
 Noticias repetidas (mesmo id) sao ignoradas. Ponto de serie com valor diferente do ja
@@ -54,13 +55,13 @@ def anexar_jsonl(nome: str, registros: list[dict]) -> None:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
 
-def executar(fonte: dict, ensaio: bool) -> dict:
+def executar(fonte: dict, ensaio: bool, historico_dias: int = 0) -> dict:
     nome = fonte["conector"][len(PREFIXO):]
     inicio = agora()
     registro = {"fonte_id": fonte["id"], "conector": fonte["conector"], "inicio": inicio, "ensaio": ensaio}
     try:
         modulo = importlib.import_module(f"coleta.conectores.{nome}")
-        res = modulo.coletar(fonte, Contexto(fonte["id"], ensaio=ensaio))
+        res = modulo.coletar(fonte, Contexto(fonte["id"], ensaio=ensaio, historico_dias=historico_dias))
     except ColetaBloqueada as exc:
         return {**registro, "ok": False, "erro": f"BLOQUEADO: {exc}"}
     except Exception as exc:
@@ -99,6 +100,7 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     args = sys.argv[1:]
     ensaio = "--ensaio" in args
+    historico = int(args[args.index("--historico") + 1]) if "--historico" in args else 0
     ids = None
     if "--ids" in args:
         try:
@@ -120,7 +122,7 @@ def main() -> int:
 
     falhas = 0
     for fonte in fontes:
-        r = executar(fonte, ensaio)
+        r = executar(fonte, ensaio, historico)
         exemplos = r.pop("_exemplos", [])
         if not ensaio:
             anexar_jsonl("execucoes.jsonl", [r])

@@ -121,9 +121,10 @@ def _relativo(caminho: Path) -> str:
 
 
 class Contexto:
-    def __init__(self, fonte_id: str, ensaio: bool = False):
+    def __init__(self, fonte_id: str, ensaio: bool = False, historico_dias: int = 0):
         self.fonte_id = fonte_id
         self.ensaio = ensaio
+        self.historico_dias = historico_dias  # >0: o conector busca tambem o passado (se souber)
         self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
 
     def _permitido(self, url: str) -> bool:
@@ -151,6 +152,10 @@ class Contexto:
         if not self._permitido(url_codificada(url)):
             raise ColetaBloqueada(f"robots.txt proibe {url}")
         return self._get(url, dados, cabecalhos)
+
+    def pausar(self, segundos: float) -> None:
+        import time
+        time.sleep(segundos)
 
     def guardar_bruto(self, conteudo: bytes, extensao: str) -> str:
         """Guarda o original antes de qualquer processamento. Devolve o caminho relativo."""

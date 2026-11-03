@@ -54,7 +54,7 @@ jobs:
 
       - name: Classificar com IA
         run: |
-          python -m processamento.ia || echo "::warning::IA indisponivel (chave, credito ou limite), seguem as notas das regras"
+          python -m processamento.ia --paralelo 4 || echo "::warning::IA indisponivel (chave, credito ou limite), seguem as notas das regras"
 
       - name: Gerar resumos das duas visoes
         run: |

@@ -59,6 +59,11 @@ O código de coleta e o monitor existentes estão em `../Aftermarket Preditivo/`
 - `dados_processados/` e `saidas/` são versionados (a rotina do GitHub precisa do histórico). `dados_brutos/` fica no cache do Actions.
 - Na nuvem, a chave vem do segredo `GEMINI_API_KEY` do repositório.
 
+## Histórico
+
+- Para carregar o passado de uma fonte RSS (uma vez, ao incluir a fonte): `.venv/Scripts/python -m coleta.rodar --ids Snn --historico 182`, depois `processamento.classificar` e `processamento.ia`. A rotina diária não usa `--historico`.
+- Painel e site trabalham com até 6 meses (período "6 meses"; `painel.exportar` exporta 182 dias).
+
 ## Ordem da rotina diária
 
 Use o Python do ambiente do projeto (`.venv/Scripts/python`), que tem o SDK da Anthropic e o `pypdf` (ANIP). Ou use o botão **Atualizar dados** do painel.

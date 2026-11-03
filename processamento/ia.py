@@ -4,6 +4,7 @@ Uso (na raiz do repositorio, com o ambiente do projeto: .venv/Scripts/python no 
     python -m processamento.ia                 refina as noticias pendentes
     python -m processamento.ia --limite 5      no maximo 5 chamadas
     python -m processamento.ia --ensaio        chama a API e mostra, sem gravar
+    python -m processamento.ia --paralelo 6    6 chamadas ao mesmo tempo (para lotes grandes, ex.: historico)
     python -m processamento.ia --mostrar       lista o resultado gravado
 
 O que a IA faz e o que NAO faz:
@@ -25,6 +26,8 @@ import hashlib
 import json
 import re
 import sys
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 from processamento import provedores
@@ -159,45 +162,63 @@ def main() -> int:
         return 0
 
     provedor = provedores.obter()
-    print(f"provedor {provedor.nome}, modelo {provedor.modelo}")
-    interrompido = False
+    paralelo = max(1, int(args[args.index("--paralelo") + 1])) if "--paralelo" in args else 1
+    print(f"provedor {provedor.nome}, modelo {provedor.modelo}, {paralelo} chamada(s) por vez")
+    # mais recentes primeiro: se parar no meio (credito, limite), o que importa agora ja foi avaliado
+    pendentes.sort(key=lambda i: noticias[i].get("publicado_em") or noticias[i].get("coletado_em") or "", reverse=True)
 
     ids_temas = {t["id"] for t in cl.temas}
-    ensaio, gravar = "--ensaio" in args, []
-    for i in pendentes:
+    ensaio = "--ensaio" in args
+    trava = threading.Lock()
+    parar = threading.Event()
+    gravados, motivo = [], {}
+    arquivo = PROCESSADOS / "classificacoes_ia.jsonl"
+    PROCESSADOS.mkdir(parents=True, exist_ok=True)
+
+    def avaliar(i: str) -> None:
+        if parar.is_set():
+            return
         n, reg = noticias[i], regras[i]
         resposta, meta = provedor.classificar(sistema, formato, montar_mensagem(n, reg))
         resultado = validar(resposta, n, reg, ids_temas) if resposta else None
-        gravar.append({"noticia_id": i, "versao_prompt": versao_prompt, "versao_regras": reg["versao_regras"],
-                       "classificado_em": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
-                       **meta, "resultado": resultado})
-        if resultado:
-            print(f"{resultado['relevancia']:>3} (regras {reg['relevancia']:>3}) {n['titulo'][:80]}")
-            print(f"      {resultado['justificativa']}" + (f" | alertas: {resultado['alertas']}" if resultado["alertas"] else ""))
-        else:
-            print(f"  ! {meta['status']}: {n['titulo'][:80]}")
-        if meta["status"] in provedores.STATUS_QUE_INTERROMPEM or meta["status"].startswith("erro_api_4"):
-            dica = {"sem_credencial": "cadastre a chave: python -m processamento.credenciais cadastrar <provedor>",
-                    "sem_credito": "a conta do provedor esta sem creditos",
-                    "limite_de_requisicoes": "limite de requisicoes; tente mais tarde",
-                    "sem_conexao": "sem conexao"}.get(meta["status"], meta.get("detalhe", "")[:200])
-            print(f"Interrompido ({provedor.nome}, {provedor.modelo}): {dica}")
-            gravar = [g for g in gravar if g["status"] not in provedores.STATUS_QUE_INTERROMPEM]
-            interrompido = True
-            break
+        registro = {"noticia_id": i, "versao_prompt": versao_prompt, "versao_regras": reg["versao_regras"],
+                    "classificado_em": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+                    **meta, "resultado": resultado}
+        interrompe = meta["status"] in provedores.STATUS_QUE_INTERROMPEM or meta["status"].startswith("erro_api_4")
+        with trava:
+            if interrompe:
+                motivo.setdefault("status", meta["status"])
+                motivo.setdefault("detalhe", meta.get("detalhe", ""))
+                parar.set()
+                return
+            gravados.append(registro)
+            if not ensaio:  # grava na hora: uma interrupcao nao perde o que ja foi avaliado
+                with arquivo.open("a", encoding="utf-8") as f:
+                    f.write(json.dumps(registro, ensure_ascii=False) + "\n")
+            if paralelo == 1 and resultado:
+                print(f"{resultado['relevancia']:>3} (regras {reg['relevancia']:>3}) {n['titulo'][:80]}")
+                print(f"      {resultado['justificativa']}" + (f" | alertas: {resultado['alertas']}" if resultado["alertas"] else ""))
+            elif paralelo == 1:
+                print(f"  ! {meta['status']}: {n['titulo'][:80]}")
+            elif len(gravados) % 100 == 0:
+                print(f"{len(gravados)}/{len(pendentes)} avaliadas", flush=True)
 
-    if gravar and not ensaio:
-        PROCESSADOS.mkdir(parents=True, exist_ok=True)
-        with (PROCESSADOS / "classificacoes_ia.jsonl").open("a", encoding="utf-8") as f:
-            for g in gravar:
-                f.write(json.dumps(g, ensure_ascii=False) + "\n")
-    uso = [g.get("uso", {}) for g in gravar]
-    print(f"\ntokens: entrada {sum(u.get('entrada', 0) for u in uso)}, saida {sum(u.get('saida', 0) for u in uso)}, "
-          f"cache lido {sum(u.get('cache_lido', 0) for u in uso)}" + (" (ensaio, nada gravado)" if ensaio else ""))
-    if interrompido and meta["status"] in ("sem_credencial", "sem_credito"):
+    with ThreadPoolExecutor(max_workers=paralelo) as executor:
+        list(executor.map(avaliar, pendentes))
+
+    if motivo:
+        dica = {"sem_credencial": "cadastre a chave: python -m processamento.credenciais cadastrar <provedor>",
+                "sem_credito": "a conta do provedor esta sem creditos",
+                "limite_de_requisicoes": "limite de requisicoes; tente mais tarde ou use menos --paralelo",
+                "sem_conexao": "sem conexao"}.get(motivo["status"], motivo["detalhe"][:200])
+        print(f"Interrompido ({provedor.nome}, {provedor.modelo}): {dica}")
+    uso = [g.get("uso", {}) for g in gravados]
+    print(f"\n{len(gravados)} avaliada(s). tokens: entrada {sum(u.get('entrada', 0) for u in uso)}, "
+          f"saida {sum(u.get('saida', 0) for u in uso)}, cache lido {sum(u.get('cache_lido', 0) for u in uso)}"
+          + (" (ensaio, nada gravado)" if ensaio else ""))
+    if motivo.get("status") in ("sem_credencial", "sem_credito"):
         return 2
-    return 0 if not interrompido and all(g["status"] == "ok" for g in gravar) else 1
-
+    return 0 if not motivo and all(g["status"] == "ok" for g in gravados) else 1
 
 if __name__ == "__main__":
     sys.exit(main())

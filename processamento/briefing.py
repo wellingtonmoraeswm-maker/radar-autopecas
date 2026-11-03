@@ -31,7 +31,7 @@ from processamento.classificar import CONFIG, PESOS, RAIZ, ler_csv, ler_jsonl, l
 SAIDAS = RAIZ / "saidas" / "briefings"
 VERSOES = {"flash": {"itens": 3, "palavras": 150, "leitura": "1 minuto", "max_tokens": 8000},
            "executivo": {"itens": 6, "palavras": 450, "leitura": "3 minutos", "max_tokens": 12000}}
-PERIODOS = {"dia": 1, "semana": 7, "mes": 30}
+PERIODOS = {"dia": 1, "semana": 7, "mes": 30, "semestre": 182}
 FONTES_INDICADOR = {"E12": "Banco Central do Brasil (SGS)", "E09": "ANIP (infográfico mensal)",
                     "E13": "IBGE", "E14": "ANP", "E11": "Comex Stat", "E15": "ABCR", "E01": "Sindipeças"}
 ROTULOS = {"risco": "🔴 Risco", "oportunidade": "🟢 Oportunidade", "atencao": "🟡 Atenção", "neutro": "⚪ Informativo"}

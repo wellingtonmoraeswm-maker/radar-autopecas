@@ -2,7 +2,7 @@
 
 Uso (na raiz do repositorio):
     python -m painel.exportar            gera site/ (index.html, app.js, estilo.css, dados/*.json)
-    python -m painel.exportar --dias 90  janela de noticias exportadas (padrao 90 dias)
+    python -m painel.exportar --dias 182 janela de noticias exportadas (padrao 182 dias = 6 meses)
 
 Usa as MESMAS funcoes do servidor local (painel/servidor.py), entao a demonstracao mostra exatamente o
 que o painel mostra. O que fica de fora de proposito:
@@ -30,7 +30,7 @@ def gravar(nome: str, dados) -> None:
 
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    dias = int(sys.argv[sys.argv.index("--dias") + 1]) if "--dias" in sys.argv else 90
+    dias = int(sys.argv[sys.argv.index("--dias") + 1]) if "--dias" in sys.argv else 182
     if SAIDA.exists():
         shutil.rmtree(SAIDA)
     (SAIDA / "dados").mkdir(parents=True)

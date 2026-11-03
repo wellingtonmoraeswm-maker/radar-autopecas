@@ -36,7 +36,7 @@ O executor cuida do resto: `coletado_em`, deduplicação de notícias pelo URL n
 
 | Conector | Serve para |
 |---|---|
-| `radar:rss` | Qualquer feed RSS 2.0 ou Atom |
+| `radar:rss` | Qualquer feed RSS 2.0 ou Atom. Com `python -m coleta.rodar --historico DIAS`, segue as páginas do feed (`?paged=2`, padrão WordPress) até a data-limite, com 1 s de pausa entre páginas |
 | `radar:bcb_sgs` | Qualquer série do SGS do Banco Central (o código vem da URL) |
 | `radar:oficina_brasil` | Portal Oficina Brasil (sem RSS): página inicial + metadados públicos de cada matéria (og:title, og:description, datePublished) |
 | `radar:anip_infografico` | Infográfico mensal da ANIP (PDF): manchete e destaques da página 1 viram séries de pneus (acumulado do ano). Precisa de `pypdf` (.venv) |
