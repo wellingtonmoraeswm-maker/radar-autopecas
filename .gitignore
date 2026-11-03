@@ -1,0 +1,8 @@
+# Gerados localmente ou grandes demais para o Git
+dados_brutos/
+site/
+__pycache__/
+*.pyc
+.venv/
+.env
+apresentacao/*.mp4

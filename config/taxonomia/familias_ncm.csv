@@ -1,0 +1,30 @@
+id;familia;termos;linha;ncm;descricao_ncm;verificado;observacao
+F01;Freios;freio|freios|disco de freio|tambor de freio|cilindro de freio|servofreio;ambas;8708.30;Freios e servofreios, e suas partes;nao;
+F02;Guarnições de fricção (pastilhas e lonas);pastilha|pastilhas|lona de freio|lonas de freio;ambas;6813.81;Guarnições para freios, sem amianto;nao;
+F03;Suspensão e amortecedores;amortecedor|amortecedores|suspensão|mola|bandeja|pivô|bieleta;ambas;8708.80;Sistemas de suspensão e suas partes (incluindo amortecedores);nao;
+F04;Embreagem;embreagem|kit de embreagem|platô;ambas;8708.93;Embreagens e suas partes;nao;
+F05;Direção;direção|caixa de direção|terminal de direção|barra de direção;ambas;8708.94;Volantes, colunas e caixas de direção, e suas partes;nao;
+F06;Transmissão;câmbio|caixa de marchas|transmissão;ambas;8708.40;Caixas de marchas e suas partes;nao;
+F07;Eixos;eixo|diferencial|semieixo;ambas;8708.50;Eixos com diferencial e eixos não motores, e suas partes;nao;
+F08;Rodas;roda|rodas|cubo de roda;ambas;8708.70;Rodas, suas partes e acessórios;nao;
+F09;Arrefecimento (radiadores);radiador|arrefecimento|reservatório de expansão;ambas;8708.91;Radiadores e suas partes;nao;
+F10;Escapamento;escapamento|silencioso|catalisador;ambas;8708.92;Silenciosos e tubos de escape, e suas partes;nao;
+F11;Airbag;airbag;leve;8708.95;Airbags com sistema de insuflação, e suas partes;nao;
+F12;Carroceria e para-choques;para-choque|para-choques|lataria|capô|paralama;ambas;8708.10|8708.29;Para-choques e outras partes de carroceria;nao;
+F13;Outras partes de veículos;;ambas;8708.99;Outras partes e acessórios de veículos;nao;Agregado amplo: usar com cuidado
+F14;Partes de motor;pistão|anel de pistão|biela|bronzina|cabeçote|válvula de motor|retentor;ambas;8409.91|8409.99;Partes de motores de pistão (ciclo Otto e diesel);nao;
+F15;Bombas (combustível, óleo, água);bomba de combustível|bomba de óleo|bomba d'água;ambas;8413.30;Bombas para motores de ignição por centelha ou compressão;nao;
+F16;Filtros;filtro|filtros|filtro de óleo|filtro de ar|filtro de combustível;ambas;8421.23|8421.31;Filtros de óleo ou combustível / filtros de ar de entrada de motores;nao;
+F17;Rolamentos;rolamento|rolamentos;ambas;8482;Rolamentos de esferas, de roletes ou de agulhas;nao;Inclui uso industrial: não é só automotivo
+F18;Juntas;junta|juntas|junta do cabeçote;ambas;8484.10|4016.93;Juntas metaloplásticas / juntas de borracha vulcanizada;nao;Inclui uso industrial
+F19;Correias;correia|correias|correia dentada;ambas;4010.3;Correias de transmissão de borracha;nao;Inclui uso industrial
+F20;Ignição e partida;vela|velas|bobina|motor de arranque|alternador;ambas;8511;Velas, bobinas, motores de arranque, alternadores e partes;nao;
+F21;Iluminação e limpadores;farol|faróis|lanterna|palheta|limpador de para-brisa;ambas;8512;Aparelhos de iluminação e sinalização, limpadores de para-brisa;nao;
+F22;Baterias;bateria|baterias;ambas;8507.10;Acumuladores elétricos de chumbo, para partida de motores;nao;
+F23;Chicotes elétricos;chicote|cabo de vela;ambas;8544.30;Jogos de fios para velas de ignição e outros jogos de fios para veículos;nao;
+F24;Pneus;pneu|pneus;ambas;4011.10|4011.20;Pneus novos para automóveis / para ônibus e caminhões;nao;
+F25;Vidros;para-brisa|vidro automotivo;ambas;7007.11|7007.21;Vidros de segurança temperados e laminados para veículos;nao;
+F26;Retrovisores;retrovisor|retrovisores;ambas;7009.10;Espelhos retrovisores para veículos;nao;
+F27;Fechaduras;fechadura;ambas;8301.20;Fechaduras para veículos automóveis;nao;
+F28;Instrumentos de painel;velocímetro|painel de instrumentos;ambas;9029;Contadores de voltas, velocímetros, tacômetros;nao;Inclui uso não automotivo
+F29;Partes de motocicletas;peças de moto|peça de moto;moto;8714.10;Partes e acessórios de motocicletas;nao;

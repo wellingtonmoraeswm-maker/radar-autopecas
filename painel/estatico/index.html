@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Radar Autopeças</title>
+  <link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="marca">
+      <span class="logo" aria-hidden="true">◎</span>
+      <div>
+        <strong>Radar Autopeças</strong>
+        <small id="status-geral">carregando…</small>
+      </div>
+    </div>
+    <div class="controles">
+      <label class="campo">
+        <span>Visão</span>
+        <select id="visao"></select>
+      </label>
+      <div class="segmentado" role="radiogroup" aria-label="Período">
+        <button type="button" data-periodo="dia" role="radio">Dia</button>
+        <button type="button" data-periodo="semana" role="radio" aria-checked="true">Semana</button>
+        <button type="button" data-periodo="mes" role="radio">Mês</button>
+        <button type="button" data-periodo="personalizado" role="radio">Datas</button>
+      </div>
+      <div id="datas" class="datas" hidden>
+        <input type="date" id="de" aria-label="De">
+        <input type="date" id="ate" aria-label="Até">
+      </div>
+      <button type="button" id="atualizar" class="botao so-local">Atualizar dados</button>
+      <button type="button" id="tema" class="botao fantasma" aria-label="Alternar tema claro ou escuro">◐</button>
+    </div>
+  </header>
+
+  <nav class="abas" role="tablist">
+    <button role="tab" data-aba="painel" aria-selected="true">Painel</button>
+    <button role="tab" data-aba="noticias">Notícias</button>
+    <button role="tab" data-aba="resumos">Resumos</button>
+    <button role="tab" data-aba="fontes">Fontes</button>
+    <button role="tab" data-aba="config" class="so-local">Configurações</button>
+  </nav>
+
+  <p class="faixa-demo so-demo">Demonstração pública do protótipo · dados públicos atualizados todo dia de manhã · só leitura</p>
+  <main>
+    <section id="aba-painel" class="aba">
+      <h2 class="titulo-secao">Indicadores <small>calculados pelo Radar a partir das séries oficiais</small></h2>
+      <div id="kpis" class="kpis"></div>
+      <details class="tabela-alternativa">
+        <summary>Ver como tabela</summary>
+        <div id="kpis-tabela"></div>
+      </details>
+
+      <div class="grade-2">
+        <div>
+          <div class="cabeca-secao">
+            <h2 class="titulo-secao">Resumo do período</h2>
+            <div class="acoes">
+              <select id="versao" class="so-local" aria-label="Versão do resumo">
+                <option value="flash">Flash · 1 min</option>
+                <option value="executivo">Executivo · 3 min</option>
+              </select>
+              <button type="button" id="gerar" class="botao so-local">Gerar resumo</button>
+            </div>
+          </div>
+          <div id="resumo-atual" class="cartao"></div>
+        </div>
+        <div>
+          <h2 class="titulo-secao">Em destaque <small id="destaque-info"></small></h2>
+          <div id="destaques" class="lista"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aba-noticias" class="aba" hidden>
+      <div class="filtros">
+        <input type="search" id="busca" placeholder="Buscar no título">
+        <select id="filtro-tema"><option value="">Todos os temas</option></select>
+        <label class="check"><input type="checkbox" id="so-setor" checked> Só do setor</label>
+        <label class="check"><input type="checkbox" id="so-corte"> Só acima do corte</label>
+      </div>
+      <p id="noticias-info" class="discreto"></p>
+      <div id="noticias" class="lista"></div>
+    </section>
+
+    <section id="aba-resumos" class="aba" hidden>
+      <div class="grade-resumos">
+        <div id="historico" class="lista compacta"></div>
+        <div id="resumo-escolhido" class="cartao"></div>
+      </div>
+    </section>
+
+    <section id="aba-fontes" class="aba" hidden>
+      <form id="form-fonte" class="cartao form largo so-local" autocomplete="off">
+        <h3>Incluir fonte</h3>
+        <p class="discreto">Cole o endereço do site ou do feed. O Radar testa se dá para coletar (RSS, robots.txt, resposta) antes de incluir. Sites com RSS entram já ativos; os demais ficam como candidatos até ganharem um conector.</p>
+        <div class="linha-form">
+          <input type="url" name="url" required placeholder="https://www.exemplo.com.br/" spellcheck="false">
+          <button type="button" id="testar-fonte" class="botao fantasma">Testar</button>
+        </div>
+        <div id="resultado-teste" class="resultado-teste" hidden></div>
+        <div id="campos-fonte" class="grade-campos" hidden>
+          <label class="campo"><span>Nome</span><input type="text" name="nome" required></label>
+          <label class="campo"><span>Escopo</span>
+            <select name="escopo">
+              <option value="setorial">Setorial: tudo o que publica é do setor</option>
+              <option value="geral">Geral: só entra notícia que cite o setor</option>
+            </select></label>
+          <label class="campo"><span>Confiabilidade</span>
+            <select name="confiabilidade">
+              <option value="A">A · órgão oficial ou associação</option>
+              <option value="B" selected>B · imprensa especializada</option>
+              <option value="C">C · agregador ou sem metodologia</option>
+            </select></label>
+          <label class="campo"><span>Tema principal</span><select name="temas" id="tema-fonte"></select></label>
+          <div class="acoes-form"><button type="submit" class="botao">Incluir no catálogo</button></div>
+        </div>
+        <p id="fonte-msg" class="mensagem" role="status"></p>
+      </form>
+      <div class="cabeca-secao">
+        <h2 class="titulo-secao">Catálogo <small id="fontes-resumo"></small></h2>
+        <label class="check"><input type="checkbox" id="mostrar-descartadas"> Mostrar excluídas</label>
+      </div>
+      <div class="rolagem"><table id="fontes" class="tabela"></table></div>
+    </section>
+
+    <section id="aba-config" class="aba" hidden>
+      <h2 class="titulo-secao">Inteligência artificial</h2>
+      <p class="discreto">A chave fica só nesta máquina, fora do repositório (<span id="arquivo-chaves"></span>). Ela nunca aparece inteira na tela.</p>
+      <div id="provedores" class="provedores"></div>
+
+      <form id="form-chave" class="cartao form" autocomplete="off">
+        <h3>Cadastrar ou trocar chave</h3>
+        <label class="campo">
+          <span>Provedor</span>
+          <select name="provedor">
+            <option value="gemini">Google Gemini</option>
+            <option value="anthropic">Anthropic (Claude)</option>
+          </select>
+        </label>
+        <label class="campo">
+          <span>Chave</span>
+          <input type="password" name="chave" required minlength="20" autocomplete="new-password" spellcheck="false">
+        </label>
+        <label class="campo">
+          <span>Modelo <small>(opcional)</small></span>
+          <input type="text" name="modelo" placeholder="padrão do provedor" spellcheck="false">
+        </label>
+        <button type="submit" class="botao">Salvar e ativar</button>
+        <p id="form-msg" class="mensagem" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <div id="aviso" class="aviso" role="status" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>

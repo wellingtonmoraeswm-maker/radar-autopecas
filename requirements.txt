@@ -1,0 +1,4 @@
+# Dependências externas: SDK da Anthropic (camada de IA) e pypdf (leitura dos PDFs da ANIP).
+# Instalar: py -m venv .venv  e  .venv/Scripts/python -m pip install -r requirements.txt
+anthropic>=2.3,<3
+pypdf>=6,<7

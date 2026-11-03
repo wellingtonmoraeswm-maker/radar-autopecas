@@ -1,0 +1,20 @@
+id;nome;sigla;tipo;site;blocos;verificado;observacao
+E01;Sindicato Nacional da Indústria de Componentes para Veículos Automotores;Sindipeças;associação;https://www.sindipecas.org.br;B|Antecedentes;sim;Relatório conjuntural mensal, histórico restrito a associados
+E02;Associação Brasileira da Indústria de Autopeças;Abipeças;associação;;B;nao;Anuário junto com o Sindipeças
+E03;Associação Nacional dos Distribuidores de Autopeças;Andap;associação;;F;nao;Representa as distribuidoras
+E04;Sindicato do Comércio Atacadista e Distribuidor de Autopeças;Sicap;associação;;F;nao;
+E05;Sindicato do Comércio Varejista de Peças e Acessórios;Sincopeças;associação;;F;nao;Há sindicatos por estado
+E06;Sindicato da Indústria de Reparação de Veículos;Sindirepa;associação;;E;nao;Há sindicatos por estado
+E07;Associação Nacional dos Fabricantes de Veículos Automotores;Anfavea;associação;https://anfavea.com.br;C;sim;
+E08;Federação Nacional da Distribuição de Veículos Automotores;Fenabrave;associação;https://www.fenabrave.org.br;C;sim;
+E09;Associação Nacional da Indústria de Pneumáticos;ANIP;associação;https://www.anip.org.br;A|Antecedentes;nao;
+E10;Secretaria Nacional de Trânsito;Senatran;governo;;A;nao;Arquivos mensais de frota
+E11;Comex Stat (MDIC/Secex);Comex Stat;governo;https://comexstat.mdic.gov.br;D;sim;
+E12;Banco Central do Brasil;BCB;governo;https://www.bcb.gov.br;D|Antecedentes;sim;
+E13;Instituto Brasileiro de Geografia e Estatística;IBGE;governo;https://www.ibge.gov.br;Antecedentes;sim;
+E14;Agência Nacional do Petróleo, Gás Natural e Biocombustíveis;ANP;governo;;Antecedentes;sim;
+E15;Associação Brasileira de Concessionárias de Rodovias;ABCR;associação;https://abcr.org.br;Antecedentes;sim;
+E16;Grupo Oficina Brasil / CINAU;CINAU;pesquisa;https://oficinabrasil.com.br;E;nao;Acesso e custo a confirmar
+E17;Instituto Nacional de Metrologia, Qualidade e Tecnologia;Inmetro;governo;;F;nao;Certificação de autopeças
+E18;Associação Brasileira do Veículo Elétrico;ABVE;associação;;C|F;nao;
+E19;Associação Brasileira dos Fabricantes de Motocicletas;Abraciclo;associação;;C;nao;

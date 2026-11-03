@@ -1,0 +1,22 @@
+id;tema;tema_pai;palavras_chave;excluir;linha;ativo;ancora;observacao
+T01;Mercado de reposição;;autopeças|autopeça|reposição|aftermarket|mercado de reposição|varejo de autopeças|distribuição de autopeças;;ambas;sim;sim;Tema guarda-chuva do setor
+T02;Preços e inflação de peças;T01;preço das peças|reajuste|IPCA peças|inflação de autopeças|custo de reparo|conserto de veículos|desconto em peças;;ambas;sim;sim;
+T03;Câmbio;;dólar|câmbio|real desvalorizado|real valorizado|cotação do dólar;câmbio automático|câmbio manual|caixa de câmbio|câmbio CVT|óleo de câmbio;ambas;sim;nao;
+T04;Importação e comércio exterior;;importação de autopeças|importados|Comex Stat|origem chinesa|balança comercial|exportação de autopeças;importação de veículos;ambas;sim;nao;Importação de veículos fica em T15
+T05;Tarifas e defesa comercial;T04;imposto de importação|antidumping|tarifa|cota de importação|ex-tarifário|Gecex;;ambas;sim;nao;
+T06;Tributação;;reforma tributária|IBS|CBS|imposto seletivo|substituição tributária|ICMS-ST|split payment|crédito tributário;;ambas;sim;nao;Transição da reforma em 2026-2033
+T07;Regulação e normas;;Inmetro|certificação compulsória|Proconve|programa Mover|inspeção veicular|recall|Contran|Senatran resolução;;ambas;sim;sim;
+T08;Concorrência;;distribuidora de autopeças|atacadista de autopeças|nova filial|centro de distribuição|abre unidade;;ambas;sim;sim;Cruzar com concorrentes.csv
+T09;Fusões e aquisições;T08;aquisição|fusão|compra da empresa|incorporação|joint venture|fundo de investimento|private equity|IPO;;ambas;sim;nao;
+T10;Logística e abastecimento;;ruptura|falta de peças|desabastecimento|atraso de entrega|frete|greve dos caminhoneiros|porto|contêiner;;ambas;sim;nao;
+T11;Eletrificação;;carro elétrico|veículo elétrico|híbrido|eletrificado|bateria de tração|recarga;;leve;sim;sim;
+T12;Tecnologia veicular;;ADAS|sensor|carro conectado|telemetria|software automotivo|diagnóstico eletrônico;;ambas;sim;sim;
+T13;Canais digitais;;marketplace|e-commerce de autopeças|venda online|B2B digital|catálogo eletrônico;;ambas;sim;nao;
+T14;Oficinas e reparação;;oficina mecânica|oficinas|reparador|reparadores|reparação automotiva|mecânico|mecânicos|mecânica automotiva|manutenção preventiva|Sindirepa|CINAU;;ambas;sim;sim;
+T15;Veículos novos;;emplacamentos|venda de veículos|Fenabrave|Anfavea|produção de veículos|lançamento de veículo|lançamento de modelo|novo modelo|salão do automóvel|salão de paris|importação de veículos;;ambas;sim;sim;
+T16;Frota;;frota circulante|idade média da frota|frota envelhecida|frota registrada|Senatran frota;;ambas;sim;sim;
+T17;Linha pesada e transporte;;caminhão|caminhões|ônibus|transporte rodoviário de cargas|frete rodoviário|safra|agronegócio|diesel|Fenatran;;pesada;sim;nao;
+T18;Crédito e economia;;Selic|juros|crédito|inadimplência|PIB|IBC-Br|desemprego|renda;;ambas;sim;nao;
+T19;Pneus;;pneu|pneus|ANIP|recapagem;;ambas;sim;sim;
+T20;Motocicletas;;motocicleta|motocicletas|moto|motos|Abraciclo|peças de moto;;moto;sim;sim;
+T21;Canal das montadoras (peça genuína);T08;peça genuína|peças genuínas|peça original|peças originais|peças de concessionária|rede de concessionárias|concessionária de veículos|concessionárias de veículos|pós-venda automotivo|pós-venda das montadoras|descontos em peças|linha econômica de peças|segunda linha de peças;rodovia|rodovias|energia elétrica|saneamento;ambas;sim;sim;Montadoras e concessionárias disputando a reposição com o mercado independente. Criado em 2026-11-01 a partir da notícia da Mercedes-Benz (Sprinter)

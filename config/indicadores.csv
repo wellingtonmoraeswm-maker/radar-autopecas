@@ -1,0 +1,8 @@
+serie_id;nome;unidade;prefixo;sufixo;casas;variacao;comparacao;fonte_id;observacao
+bcb_sgs_3698;Câmbio R$/US$ (média mensal);R$ por US$;R$;;2;pct;ambos;S03;Afeta o custo das linhas importadas
+bcb_sgs_4390;Selic acumulada no mês;% ao mês;;%;2;pp;ambos;S02;Custo do capital de giro e do crédito ao varejo de peças
+bcb_sgs_24363;IBC-Br (atividade econômica);índice;;;1;pct;ano;S01;Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior
+bcb_sgs_20662;Concessões de crédito a pessoas físicas;R$ milhões;R$;mi;0;pct;ano;S04;Sem ajuste sazonal: comparar com o mesmo mês do ano anterior
+bcb_sgs_21084;Inadimplência de pessoas físicas;%;;%;2;pp;ambos;S05;Pressão sobre o consumo e o crédito das oficinas e lojas
+anip_reposicao_acum;Pneus: vendas para reposição (ANIP);% acumulado no ano;;;1;nenhuma;nenhuma;S14;Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros
+anip_total_acum;Pneus: vendas totais (ANIP);% acumulado no ano;;;1;nenhuma;nenhuma;S14;Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior

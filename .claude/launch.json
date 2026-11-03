@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "painel-radar",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": [
+        "painel/iniciar.py"
+      ],
+      "port": 8765
+    }
+  ]
+}

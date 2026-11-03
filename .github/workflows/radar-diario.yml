@@ -1,0 +1,94 @@
+# Rotina diaria do Radar: coleta, classifica, passa pela IA, gera os resumos e publica a demonstracao.
+# Roda todo dia as 06:00 de Brasilia (09:00 UTC) e tambem pelo botao "Run workflow" na aba Actions.
+# Precisa do segredo GEMINI_API_KEY (Settings > Secrets and variables > Actions).
+name: Radar diario
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar-diario
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONIOENCODING: utf-8
+      TZ: America/Sao_Paulo
+      RADAR_PROVEDOR_IA: gemini
+      RADAR_MODELO_IA: gemini-flash-latest
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Recuperar os originais ja coletados
+        uses: actions/cache@v4
+        with:
+          path: dados_brutos
+          key: brutos-${{ github.run_id }}
+          restore-keys: brutos-
+
+      - name: Coletar fontes
+        run: |
+          python -m coleta.rodar || echo "::warning::alguma fonte falhou na coleta, ver o log"
+
+      - name: Classificar pelas regras
+        run: python -m processamento.classificar
+
+      - name: Classificar com IA
+        run: |
+          python -m processamento.ia || echo "::warning::IA indisponivel (chave, credito ou limite), seguem as notas das regras"
+
+      - name: Gerar resumos das duas visoes
+        run: |
+          python -m processamento.briefing --visao V01 || echo "::warning::resumo da Presidencia nao aprovado"
+          python -m processamento.briefing --visao V02 || echo "::warning::resumo do Comercial nao aprovado"
+
+      - name: Testes
+        run: |
+          python -m unittest discover -s coleta/testes -t .
+          python -m unittest discover -s processamento/testes -t .
+
+      - name: Montar o site de demonstracao
+        run: python -m painel.exportar
+
+      - name: Guardar os dados do dia no repositorio
+        run: |
+          git config user.name "radar-autopecas-bot"
+          git config user.email "radar-autopecas-bot@users.noreply.github.com"
+          git add dados_processados saidas
+          git diff --cached --quiet || git commit -m "Dados de $(date +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  publicar:
+    needs: atualizar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
