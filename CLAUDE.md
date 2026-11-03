@@ -24,6 +24,8 @@ O código de coleta e o monitor existentes estão em `../Aftermarket Preditivo/`
 | `processamento/` | Classificação por regras (`classificar.py`), refinamento por IA (`ia.py`), provedores de IA (`provedores/`), cadastro de chaves (`credenciais.py`), indicadores (`indicadores.py`), resumo executivo (`briefing.py`), auditor (`auditor.py`) e testes |
 | `dados_brutos/`, `dados_processados/`, `saidas/` | Gerados pela coleta, pelo processamento e pelos resumos. Fora do Git (`.gitignore`) |
 | `painel/` | Protótipo local do painel (servidor Python sem dependências + HTML/CSS/JS). Abre em http://127.0.0.1:8765 com `.venv/Scripts/python painel/iniciar.py` |
+| `.github/workflows/radar-diario.yml` | Rotina diária no GitHub Actions: coleta, IA, resumos, testes e publicação da demonstração no GitHub Pages. Passo a passo em `PUBLICAR.md` |
+| `site/` | Gerado por `python -m painel.exportar`: o painel estático, só leitura, publicado no Pages. Fora do Git |
 | `app/`, `api/` | Painel definitivo (Next.js, na nuvem do cliente, com login), na Etapa 3 |
 
 ## Regras inegociáveis
@@ -49,6 +51,13 @@ O código de coleta e o monitor existentes estão em `../Aftermarket Preditivo/`
 - **Provedores:** `anthropic` (SDK oficial, `.venv`; padrão `claude-opus-5-5`, esforço `low`, fallback do servidor ligado) e `gemini` (API REST, biblioteca padrão; padrão `gemini-flash-latest`). O resto do Radar não sabe qual está em uso (`processamento/provedores/__init__.py`).
 - **Chaves:** `python -m processamento.credenciais cadastrar|ativar|testar|remover|status`. Ficam em `~/.radar-autopecas/credenciais.json`, **fora do repositório e do OneDrive**. A chave é pedida sem aparecer na tela e nunca é exibida inteira. Em produção, variáveis de ambiente do cofre da nuvem têm prioridade (`RADAR_PROVEDOR_IA`, `RADAR_MODELO_IA`, `GEMINI_API_KEY`, `ANTHROPIC_API_KEY`). A tela de configurações do painel (Etapa 3) usará as mesmas funções.
 - Nunca colocar chave no código, nos CSVs, em `.env` dentro do repositório ou em argumento de linha de comando.
+
+## Demonstração pública (GitHub Pages)
+
+- `painel/exportar.py` gera `site/` com as mesmas funções do servidor local. No HTML exportado, `data-modo="estatico"` liga o modo só leitura do `app.js` (lê `dados/*.json`, esconde ações e Configurações).
+- Nunca exportar `trecho_interno` das notícias nem o `trecho` dos fatos dos resumos: no site público ficam só título, link, datas, notas e o resumo próprio.
+- `dados_processados/` e `saidas/` são versionados (a rotina do GitHub precisa do histórico). `dados_brutos/` fica no cache do Actions.
+- Na nuvem, a chave vem do segredo `GEMINI_API_KEY` do repositório.
 
 ## Ordem da rotina diária
 

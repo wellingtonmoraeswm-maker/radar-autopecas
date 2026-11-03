@@ -26,6 +26,10 @@ Etapa 1: descoberta. Este repositório ainda não tem o painel; tem o plano, o r
 
 Depois abra http://127.0.0.1:8765 no navegador. O painel só funciona nesta máquina. Abas: Painel (indicadores, resumo e destaques), Notícias, Resumos, Fontes e Configurações (chave de IA).
 
+## Demonstração pública
+
+O painel também é publicado, só para leitura e atualizado todo dia, no GitHub Pages. Como publicar: `PUBLICAR.md`.
+
 ## Como usar as skills
 
 Abra esta pasta no Claude Code e peça, por exemplo:
