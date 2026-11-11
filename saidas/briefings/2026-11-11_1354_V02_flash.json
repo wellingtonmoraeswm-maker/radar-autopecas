@@ -1,0 +1,347 @@
+{
+  "cabecalho": {
+    "versao": "flash",
+    "visao": "Comercial",
+    "periodo": "05/11/2026 a 11/11/2026",
+    "gerado_em": "11/11/2026 13:54",
+    "provedor": "gemini",
+    "modelo": "gemini-3.8-flash",
+    "contagem": {
+      "no_periodo": 73,
+      "do_setor": 37,
+      "acima_do_corte": 27
+    }
+  },
+  "fatos": {
+    "I_bcb_sgs_3698": {
+      "tipo": "indicador",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025",
+      "contexto": "Afeta o custo das linhas importadas",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S03"
+    },
+    "I_bcb_sgs_4390": {
+      "tipo": "indicador",
+      "frase": "Selic acumulada no mês: 0,31% em nov/2026; -0,76 p.p. sobre out/2026; -0,74 p.p. sobre nov/2025",
+      "contexto": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia_fmt": "nov/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S02"
+    },
+    "I_bcb_sgs_24363": {
+      "tipo": "indicador",
+      "frase": "IBC-Br (atividade econômica): 111,7 em ago/2026; +1,2% sobre ago/2025",
+      "contexto": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia_fmt": "ago/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S01"
+    },
+    "I_bcb_sgs_20662": {
+      "tipo": "indicador",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025",
+      "contexto": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S04"
+    },
+    "I_bcb_sgs_21084": {
+      "tipo": "indicador",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025",
+      "contexto": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S05"
+    },
+    "I_anip_reposicao_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,9% no acumulado até set/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia_fmt": "set/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "I_anip_total_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas totais (ANIP): -10,7% no acumulado até set/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "N7527daa0c98b8022": {
+      "tipo": "noticia",
+      "titulo": "Governo eleva Imposto de Importação de pneus para 30% por 12 meses",
+      "trecho": "Alíquota, que era de 25%, ficará em vigor até novembro de 2027 para atender pedido da Indústria. O post Governo eleva Imposto de Importação de pneus para 30% por 12 meses apareceu primeiro em Aftemarket Automotivo .",
+      "data": "10/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/governo-eleva-imposto-de-importacao-de-pneus-para-30-por-12-meses/",
+      "temas": [
+        "Importação e comércio exterior",
+        "Tarifas e defesa comercial",
+        "Pneus"
+      ],
+      "leitura_previa": "A elevação do Imposto de Importação de pneus para 30% impacta diretamente os custos de importação, a formação de preços e a competitividade no mercado de reposição.",
+      "nota": 85
+    },
+    "N9a5154db37950a8c": {
+      "tipo": "noticia",
+      "titulo": "Governo publica MP das alíquotas do Imposto Seletivo para 2027",
+      "trecho": "Categorias de veículos terão alíquota zero, incluindo aqueles adquiridos por pessoas com deficiência ou com transtorno do espectro autista e por motoristas profissionais que utilizem o automóvel na categoria de aluguel (táxi) O post Governo publica MP das alíquotas do Imposto Seletivo para 2027...",
+      "data": "05/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/governo-publica-mp-das-aliquotas-do-imposto-seletivo-para-2027/",
+      "temas": [
+        "Tributação",
+        "Veículos novos"
+      ],
+      "leitura_previa": "A regulamentação do Imposto Seletivo sobre veículos impacta a precificação e o mercado automotivo no âmbito da Reforma Tributária, tema de grande interesse para a liderança da distribuidora.",
+      "nota": 80
+    },
+    "N4db4eadf2a70b3ad": {
+      "tipo": "noticia",
+      "titulo": "VIES – Variações nos Índices e Estatísticas no Varejo de Autopeças | Outubro de 2022 a 2026",
+      "trecho": "A pesquisa VIES compara o desempenho mensal do abastecimento, preço, venda e compra no varejo de autopeças, tomando como referência o mesmo mês em anos anteriores. Essa edição apresenta os resultados de outubro de 2022 a 2026. O post VIES – Variações nos Índices e Estatísticas no Varejo de...",
+      "data": "05/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/varejo-de-autopecas/",
+      "temas": [
+        "Mercado de reposição",
+        "Preços e inflação de peças",
+        "Logística e abastecimento"
+      ],
+      "leitura_previa": "Traz estatísticas periódicas sobre abastecimento, preços, compras e vendas no varejo de autopeças, úteis para o planejamento comercial da distribuidora.",
+      "nota": 75
+    },
+    "Nfe67a04d79d26ff7": {
+      "tipo": "noticia",
+      "titulo": "Fenabrave prevê aumento de 12,8% na venda de veículos novos em 2026",
+      "trecho": "Federação divulgou números de outubro e ajustou expectativas O post Fenabrave prevê aumento de 12,8% na venda de veículos novos em 2026 apareceu primeiro em Aftemarket Automotivo .",
+      "data": "05/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/fenabrave-preve-aumento-de-128-na-venda-de-veiculos-novos-em-2026/",
+      "temas": [
+        "Veículos novos"
+      ],
+      "leitura_previa": "A projeção de crescimento na venda de veículos novos indica a futura renovação da frota, influenciando o volume do mercado de reposição nos próximos anos.",
+      "nota": 70
+    },
+    "N350a73d849ac83ec": {
+      "tipo": "noticia",
+      "titulo": "GWM anuncia investimento de R$ 5 bilhões em polo automotivo no ES",
+      "trecho": "O anunciado movimento de R$ 5 bilhões concentra empresas de autopeças, siderurgia e serviços, criando uma nova frente produtiva além dos polos tradicionais do país. O post GWM anuncia investimento de R$ 5 bilhões em polo automotivo no ES apareceu primeiro em Aftemarket Automotivo .",
+      "data": "09/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/gwm-anuncia-investimento-de-r-5-bilhoes-em-polo-automotivo-no-es/",
+      "temas": [
+        "Mercado de reposição",
+        "Veículos novos"
+      ],
+      "leitura_previa": "O investimento de R$ 5 bilhões da montadora em um novo polo automotivo com fabricantes de autopeças sinaliza expansão da base produtiva e de fornecedores locais no país.",
+      "nota": 70
+    },
+    "N871a742a27d27686": {
+      "tipo": "noticia",
+      "titulo": "Marelli Cofap Aftermarket lança plataforma gratuita de cursos para capacitação de reparadores",
+      "trecho": "Para marcar o lançamento, já estão disponíveis dois cursos: Fundamentos dos Veículos Híbridos e Elétricos e Suspensão em Veículos Híbridos e Elétricos O post Marelli Cofap Aftermarket lança plataforma gratuita de cursos para capacitação de reparadores apareceu primeiro em Aftemarket Automotivo .",
+      "data": "06/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/marelli-cofap-aftermarket-lanca-plataforma-gratuita-de-cursos-para-capacitacao-de-reparadores/",
+      "temas": [
+        "Mercado de reposição",
+        "Eletrificação",
+        "Oficinas e reparação"
+      ],
+      "leitura_previa": "A iniciativa da fabricante em capacitar reparadores para veículos eletrificados reflete a evolução técnica da demanda de serviços nas oficinas clientes da distribuidora.",
+      "nota": 60
+    }
+  },
+  "indicadores": [
+    {
+      "id": "I_bcb_sgs_3698",
+      "serie_id": "bcb_sgs_3698",
+      "nome": "Câmbio R$/US$ (média mensal)",
+      "unidade": "R$ por US$",
+      "fonte_id": "S03",
+      "observacao": "Afeta o custo das linhas importadas",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 5.1294,
+      "valor_fmt": "R$ 5,13",
+      "var_mes": -0.29739343401947727,
+      "var_mes_fmt": "-0,3%",
+      "var_ano": -4.755361619162568,
+      "var_ano_fmt": "-4,8%",
+      "tipo_variacao": "pct",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025"
+    },
+    {
+      "id": "I_bcb_sgs_4390",
+      "serie_id": "bcb_sgs_4390",
+      "nome": "Selic acumulada no mês",
+      "unidade": "% ao mês",
+      "fonte_id": "S02",
+      "observacao": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia": "2026-11",
+      "referencia_fmt": "nov/2026",
+      "valor": 0.31,
+      "valor_fmt": "0,31%",
+      "var_mes": -0.76,
+      "var_mes_fmt": "-0,76 p.p.",
+      "var_ano": -0.74,
+      "var_ano_fmt": "-0,74 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Selic acumulada no mês: 0,31% em nov/2026; -0,76 p.p. sobre out/2026; -0,74 p.p. sobre nov/2025"
+    },
+    {
+      "id": "I_bcb_sgs_24363",
+      "serie_id": "bcb_sgs_24363",
+      "nome": "IBC-Br (atividade econômica)",
+      "unidade": "índice",
+      "fonte_id": "S01",
+      "observacao": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia": "2026-08",
+      "referencia_fmt": "ago/2026",
+      "valor": 111.71919,
+      "valor_fmt": "111,7",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 1.2104025697409648,
+      "var_ano_fmt": "+1,2%",
+      "tipo_variacao": "pct",
+      "frase": "IBC-Br (atividade econômica): 111,7 em ago/2026; +1,2% sobre ago/2025"
+    },
+    {
+      "id": "I_bcb_sgs_20662",
+      "serie_id": "bcb_sgs_20662",
+      "nome": "Concessões de crédito a pessoas físicas",
+      "unidade": "R$ milhões",
+      "fonte_id": "S04",
+      "observacao": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 348745.0,
+      "valor_fmt": "R$ 348.745 mi",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 6.256664940129797,
+      "var_ano_fmt": "+6,3%",
+      "tipo_variacao": "pct",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_21084",
+      "serie_id": "bcb_sgs_21084",
+      "nome": "Inadimplência de pessoas físicas",
+      "unidade": "%",
+      "fonte_id": "S05",
+      "observacao": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 5.99,
+      "valor_fmt": "5,99%",
+      "var_mes": -0.04999999999999982,
+      "var_mes_fmt": "-0,05 p.p.",
+      "var_ano": 1.1000000000000005,
+      "var_ano_fmt": "+1,10 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025"
+    },
+    {
+      "id": "I_anip_reposicao_acum",
+      "serie_id": "anip_reposicao_acum",
+      "nome": "Pneus: vendas para reposição (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": -13.9,
+      "valor_fmt": "-13,9%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,9% no acumulado até set/2026, contra o mesmo período do ano anterior"
+    },
+    {
+      "id": "I_anip_total_acum",
+      "serie_id": "anip_total_acum",
+      "nome": "Pneus: vendas totais (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": -10.7,
+      "valor_fmt": "-10,7%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas totais (ANIP): -10,7% no acumulado até set/2026, contra o mesmo período do ano anterior"
+    }
+  ],
+  "tentativas": [
+    {
+      "meta": {
+        "provedor": "gemini",
+        "modelo": "gemini-flash-latest",
+        "modelo_respondeu": "gemini-3.8-flash",
+        "request_id": "q530arOoCNqB1sgPitqKqQU",
+        "uso": {
+          "entrada": 2751,
+          "saida": 670,
+          "raciocinio": 1783,
+          "cache_lido": 0
+        },
+        "stop_reason": "STOP",
+        "status": "ok"
+      },
+      "resumo": {
+        "manchete": "Tarifa de pneus sobe para 30%, projeção de veículos novos avança e capacitação técnica foca eletrificados.",
+        "itens": [
+          {
+            "refs": [
+              "N7527daa0c98b8022",
+              "I_anip_reposicao_acum"
+            ],
+            "o_que_aconteceu": "O governo elevou o Imposto de Importação de pneus para 30% por 12 meses, em cenário de vendas da indústria para reposição em -13,9% no acumulado até set/2026.",
+            "o_que_mudou": "A alíquota subiu de 25% para 30% até novembro de 2027.",
+            "por_que_importa": "A medida pode encarecer linhas importadas e alterar a competitividade de preços frente aos fabricantes nacionais.",
+            "classificacao": "atencao",
+            "o_que_acompanhar": "Repasse de preços das importadoras e da indústria de pneus no mercado de reposição."
+          },
+          {
+            "refs": [
+              "Nfe67a04d79d26ff7"
+            ],
+            "o_que_aconteceu": "A Fenabrave prevê aumento de 12,8% na venda de veículos novos em 2026.",
+            "o_que_mudou": "A entidade revisou suas projeções a partir dos números apurados em outubro.",
+            "por_que_importa": "Maior volume de vendas acelera a renovação da frota e sinaliza futura demanda de componentes de manutenção preventiva.",
+            "classificacao": "oportunidade",
+            "o_que_acompanhar": "Ritmo de emplacamentos no fechamento do ano para calibrar mix de estoques."
+          },
+          {
+            "refs": [
+              "N871a742a27d27686"
+            ],
+            "o_que_aconteceu": "A Marelli Cofap Aftermarket lançou plataforma gratuita de capacitação para reparadores em veículos híbridos e elétricos.",
+            "o_que_mudou": "Disponibilização de cursos com foco em fundamentos e suspensão de veículos eletrificados.",
+            "por_que_importa": "Oficinas mais preparadas tecnicamente podem antecipar a demanda comercial por peças dessa frota nas distribuidoras.",
+            "classificacao": "oportunidade",
+            "o_que_acompanhar": "Procura das oficinas parceiras por linhas de reposição para eletrificados."
+          }
+        ],
+        "nota_sobre_os_dados": "Os dados de pneus da ANIP refletem o acumulado até set/2026 e abrangem somente fabricantes associados, excluindo importações diretas de terceiros."
+      },
+      "auditoria": {
+        "aprovado": true,
+        "problemas": []
+      }
+    }
+  ],
+  "versao_prompt": "fb142f9d14"
+}
