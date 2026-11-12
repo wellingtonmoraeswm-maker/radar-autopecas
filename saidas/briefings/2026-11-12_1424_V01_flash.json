@@ -1,0 +1,345 @@
+{
+  "cabecalho": {
+    "versao": "flash",
+    "visao": "Presidência",
+    "periodo": "06/11/2026 a 12/11/2026",
+    "gerado_em": "12/11/2026 14:24",
+    "provedor": "gemini",
+    "modelo": "gemini-3.8-flash",
+    "contagem": {
+      "no_periodo": 79,
+      "do_setor": 39,
+      "acima_do_corte": 21
+    }
+  },
+  "fatos": {
+    "I_bcb_sgs_3698": {
+      "tipo": "indicador",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025",
+      "contexto": "Afeta o custo das linhas importadas",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S03"
+    },
+    "I_bcb_sgs_4390": {
+      "tipo": "indicador",
+      "frase": "Selic acumulada no mês: 0,36% em nov/2026; -0,71 p.p. sobre out/2026; -0,69 p.p. sobre nov/2025",
+      "contexto": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia_fmt": "nov/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S02"
+    },
+    "I_bcb_sgs_24363": {
+      "tipo": "indicador",
+      "frase": "IBC-Br (atividade econômica): 111,7 em ago/2026; +1,2% sobre ago/2025",
+      "contexto": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia_fmt": "ago/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S01"
+    },
+    "I_bcb_sgs_20662": {
+      "tipo": "indicador",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025",
+      "contexto": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S04"
+    },
+    "I_bcb_sgs_21084": {
+      "tipo": "indicador",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025",
+      "contexto": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S05"
+    },
+    "I_anip_reposicao_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,9% no acumulado até set/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia_fmt": "set/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "I_anip_total_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas totais (ANIP): -10,7% no acumulado até set/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "N7527daa0c98b8022": {
+      "tipo": "noticia",
+      "titulo": "Governo eleva Imposto de Importação de pneus para 30% por 12 meses",
+      "trecho": "Alíquota, que era de 25%, ficará em vigor até novembro de 2027 para atender pedido da Indústria. O post Governo eleva Imposto de Importação de pneus para 30% por 12 meses apareceu primeiro em Aftemarket Automotivo .",
+      "data": "10/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/governo-eleva-imposto-de-importacao-de-pneus-para-30-por-12-meses/",
+      "temas": [
+        "Importação e comércio exterior",
+        "Tarifas e defesa comercial",
+        "Pneus"
+      ],
+      "leitura_previa": "A elevação do Imposto de Importação de pneus para 30% impacta diretamente os custos de importação, a formação de preços e a competitividade no mercado de reposição.",
+      "nota": 100
+    },
+    "Neec31e43034b0953": {
+      "tipo": "noticia",
+      "titulo": "Veja os distribuidores de autopeças finalistas da 30ª edição do Maiores e Melhores",
+      "trecho": "Faltando poucos dias para a cerimônia que reconhece os distribuidores de autopeças mais bem avaliados pelo varejo, o mercado já conhece os finalistas em 21 categorias pesquisadas. Os vencedores serão anunciados em um evento especial, no dia 25 de novembro, no teatro Santander, em São Paulo. Maiores...",
+      "data": "06/11/2026",
+      "fonte": "pecamentor.com.br",
+      "url": "https://pecamentor.com.br/veja-os-distribuidores-de-autopecas-finalistas-da-30a-edicao-do-maiores-e-melhores/",
+      "temas": [
+        "Mercado de reposição",
+        "Concorrência"
+      ],
+      "leitura_previa": "Acompanha o reconhecimento e posicionamento de concorrentes distribuidores de autopeças na avaliação feita pelo varejo do setor.",
+      "nota": 55
+    },
+    "Nac99a68132ccca9f": {
+      "tipo": "noticia",
+      "titulo": "Ferodo lança linha de peças para motocicletas no Brasil",
+      "trecho": "Nova linha da marca tem 76 códigos e que cobre mais de 85% da frota brasileira de motos. As aplicações servem para Honda e Yamaha Especializada em sistemas de frenagem, a Ferodo estreia no segmento de motocicletas no Brasil com um portfólio focado em pastilhas e discos de freio. O lineup é composto...",
+      "data": "09/11/2026",
+      "fonte": "O Mecânico",
+      "url": "https://omecanico.com.br/ferodo-lanca-linha-de-pecas-para-motocicletas-no-brasil/",
+      "temas": [
+        "Mercado de reposição",
+        "Motocicletas"
+      ],
+      "leitura_previa": "O lançamento de linha de pastilhas e discos para motocicletas por marca tradicional amplia opções de portfólio e abastecimento no aftermarket de duas rodas.",
+      "nota": 55
+    },
+    "N350a73d849ac83ec": {
+      "tipo": "noticia",
+      "titulo": "GWM anuncia investimento de R$ 5 bilhões em polo automotivo no ES",
+      "trecho": "O anunciado movimento de R$ 5 bilhões concentra empresas de autopeças, siderurgia e serviços, criando uma nova frente produtiva além dos polos tradicionais do país. O post GWM anuncia investimento de R$ 5 bilhões em polo automotivo no ES apareceu primeiro em Aftemarket Automotivo .",
+      "data": "09/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/gwm-anuncia-investimento-de-r-5-bilhoes-em-polo-automotivo-no-es/",
+      "temas": [
+        "Mercado de reposição",
+        "Veículos novos"
+      ],
+      "leitura_previa": "O investimento de R$ 5 bilhões da montadora em um novo polo automotivo com fabricantes de autopeças sinaliza expansão da base produtiva e de fornecedores locais no país.",
+      "nota": 55
+    },
+    "N02ac9681ba3c54c6": {
+      "tipo": "noticia",
+      "titulo": "ONDA Aftermarket Automotivo: Dados de 02 a 06 de novembro",
+      "trecho": "Veja os resultados do Onda apurados junto ao varejo de autopeças O post ONDA Aftermarket Automotivo: Dados de 02 a 06 de novembro apareceu primeiro em Aftemarket Automotivo .",
+      "data": "10/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/onda-aftermarket-automotivo-dados-de-02-a-06-de-novembro/",
+      "temas": [
+        "Mercado de reposição"
+      ],
+      "leitura_previa": "Apresenta dados de desempenho e movimentação apurados diretamente com o varejo de autopeças, servindo como termômetro da demanda para distribuidores.",
+      "nota": 55
+    },
+    "Nd79676e8444252e9": {
+      "tipo": "noticia",
+      "titulo": "Produção de veículos ultrapassa 250 mil unidades em outubro",
+      "trecho": "Dados foram divulgados pela Anfavea O post Produção de veículos ultrapassa 250 mil unidades em outubro apareceu primeiro em Aftemarket Automotivo .",
+      "data": "11/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/producao-de-veiculos-ultrapassa-250-mil-unidades-em-outubro/",
+      "temas": [
+        "Veículos novos"
+      ],
+      "leitura_previa": "O avanço na produção de veículos novos sinaliza a renovação da frota circulante, influenciando o volume e o perfil de demanda futura no mercado de reposição.",
+      "nota": 50
+    }
+  },
+  "indicadores": [
+    {
+      "id": "I_bcb_sgs_3698",
+      "serie_id": "bcb_sgs_3698",
+      "nome": "Câmbio R$/US$ (média mensal)",
+      "unidade": "R$ por US$",
+      "fonte_id": "S03",
+      "observacao": "Afeta o custo das linhas importadas",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 5.1294,
+      "valor_fmt": "R$ 5,13",
+      "var_mes": -0.29739343401947727,
+      "var_mes_fmt": "-0,3%",
+      "var_ano": -4.755361619162568,
+      "var_ano_fmt": "-4,8%",
+      "tipo_variacao": "pct",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025"
+    },
+    {
+      "id": "I_bcb_sgs_4390",
+      "serie_id": "bcb_sgs_4390",
+      "nome": "Selic acumulada no mês",
+      "unidade": "% ao mês",
+      "fonte_id": "S02",
+      "observacao": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia": "2026-11",
+      "referencia_fmt": "nov/2026",
+      "valor": 0.36,
+      "valor_fmt": "0,36%",
+      "var_mes": -0.7100000000000001,
+      "var_mes_fmt": "-0,71 p.p.",
+      "var_ano": -0.6900000000000001,
+      "var_ano_fmt": "-0,69 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Selic acumulada no mês: 0,36% em nov/2026; -0,71 p.p. sobre out/2026; -0,69 p.p. sobre nov/2025"
+    },
+    {
+      "id": "I_bcb_sgs_24363",
+      "serie_id": "bcb_sgs_24363",
+      "nome": "IBC-Br (atividade econômica)",
+      "unidade": "índice",
+      "fonte_id": "S01",
+      "observacao": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia": "2026-08",
+      "referencia_fmt": "ago/2026",
+      "valor": 111.71919,
+      "valor_fmt": "111,7",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 1.2104025697409648,
+      "var_ano_fmt": "+1,2%",
+      "tipo_variacao": "pct",
+      "frase": "IBC-Br (atividade econômica): 111,7 em ago/2026; +1,2% sobre ago/2025"
+    },
+    {
+      "id": "I_bcb_sgs_20662",
+      "serie_id": "bcb_sgs_20662",
+      "nome": "Concessões de crédito a pessoas físicas",
+      "unidade": "R$ milhões",
+      "fonte_id": "S04",
+      "observacao": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 348745.0,
+      "valor_fmt": "R$ 348.745 mi",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 6.256664940129797,
+      "var_ano_fmt": "+6,3%",
+      "tipo_variacao": "pct",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_21084",
+      "serie_id": "bcb_sgs_21084",
+      "nome": "Inadimplência de pessoas físicas",
+      "unidade": "%",
+      "fonte_id": "S05",
+      "observacao": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 5.99,
+      "valor_fmt": "5,99%",
+      "var_mes": -0.04999999999999982,
+      "var_mes_fmt": "-0,05 p.p.",
+      "var_ano": 1.1000000000000005,
+      "var_ano_fmt": "+1,10 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025"
+    },
+    {
+      "id": "I_anip_reposicao_acum",
+      "serie_id": "anip_reposicao_acum",
+      "nome": "Pneus: vendas para reposição (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": -13.9,
+      "valor_fmt": "-13,9%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,9% no acumulado até set/2026, contra o mesmo período do ano anterior"
+    },
+    {
+      "id": "I_anip_total_acum",
+      "serie_id": "anip_total_acum",
+      "nome": "Pneus: vendas totais (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": -10.7,
+      "valor_fmt": "-10,7%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas totais (ANIP): -10,7% no acumulado até set/2026, contra o mesmo período do ano anterior"
+    }
+  ],
+  "tentativas": [
+    {
+      "meta": {
+        "provedor": "gemini",
+        "modelo": "gemini-flash-latest",
+        "modelo_respondeu": "gemini-3.8-flash",
+        "request_id": "I_b1ar3pHrLrz7IPxLjN-Ak",
+        "uso": {
+          "entrada": 2647,
+          "saida": 721,
+          "raciocinio": 1323,
+          "cache_lido": 0
+        },
+        "stop_reason": "STOP",
+        "status": "ok"
+      },
+      "resumo": {
+        "manchete": "Aumento do Imposto de Importação de pneus para 30% e alívio cambial exigem revisão imediata de compras e margens.",
+        "itens": [
+          {
+            "refs": [
+              "N7527daa0c98b8022",
+              "I_anip_reposicao_acum"
+            ],
+            "o_que_aconteceu": "O governo elevou o Imposto de Importação de pneus para 30% por 12 meses, em cenário em que as vendas de pneus para reposição pela ANIP marcaram -13,9% no acumulado até set/2026.",
+            "o_que_mudou": "A alíquota subiu de 25% para 30% até novembro de 2027.",
+            "por_que_importa": "A medida pode encarecer linhas importadas e forçar repasse de custos na reposição.",
+            "classificacao": "risco",
+            "o_que_acompanhar": "Reajustes de preços dos fabricantes e fluxo de abastecimento de importados."
+          },
+          {
+            "refs": [
+              "I_bcb_sgs_3698"
+            ],
+            "o_que_aconteceu": "O câmbio médio mensal registrou R$ 5,13 em out/2026.",
+            "o_que_mudou": "Registrou -0,3% sobre set/2026 e -4,8% sobre out/2025.",
+            "por_que_importa": "A estabilidade com viés de recuo pode aliviar custos de aquisição de autopeças e insumos importados.",
+            "classificacao": "oportunidade",
+            "o_que_acompanhar": "Comportamento da taxa de câmbio nas cotações de reposição de estoque internacional."
+          },
+          {
+            "refs": [
+              "I_bcb_sgs_21084",
+              "I_bcb_sgs_20662"
+            ],
+            "o_que_aconteceu": "A inadimplência de pessoas físicas ficou em 5,99% em set/2026, enquanto as concessões de crédito somaram R$ 348.745 mi.",
+            "o_que_mudou": "A inadimplência teve -0,05 p.p. sobre ago/2026, mas +1,10 p.p. sobre set/2025; as concessões registraram +6,3% sobre set/2025.",
+            "por_que_importa": "A pressão de crédito sobre o consumidor final pode impactar o recebimento de lojas e oficinas.",
+            "classificacao": "atencao",
+            "o_que_acompanhar": "Prazos médios e limites de crédito concedidos aos clientes do atacado."
+          }
+        ],
+        "nota_sobre_os_dados": "Dados oficiais de crédito e vendas da indústria refletem setembro de 2026, apresentando defasagem inerente à publicação dos órgãos oficiais."
+      },
+      "auditoria": {
+        "aprovado": true,
+        "problemas": []
+      }
+    }
+  ],
+  "versao_prompt": "97a936e0a4"
+}
