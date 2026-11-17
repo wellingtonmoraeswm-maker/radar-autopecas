@@ -1,0 +1,348 @@
+{
+  "cabecalho": {
+    "versao": "flash",
+    "visao": "Comercial",
+    "periodo": "11/11/2026 a 17/11/2026",
+    "gerado_em": "17/11/2026 15:10",
+    "provedor": "gemini",
+    "modelo": "gemini-3.8-flash",
+    "contagem": {
+      "no_periodo": 79,
+      "do_setor": 40,
+      "acima_do_corte": 31
+    }
+  },
+  "fatos": {
+    "I_bcb_sgs_3698": {
+      "tipo": "indicador",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025",
+      "contexto": "Afeta o custo das linhas importadas",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S03"
+    },
+    "I_bcb_sgs_4390": {
+      "tipo": "indicador",
+      "frase": "Selic acumulada no mês: 0,51% em nov/2026; -0,56 p.p. sobre out/2026; -0,54 p.p. sobre nov/2025",
+      "contexto": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia_fmt": "nov/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S02"
+    },
+    "I_bcb_sgs_24363": {
+      "tipo": "indicador",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025",
+      "contexto": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S01"
+    },
+    "I_bcb_sgs_20662": {
+      "tipo": "indicador",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025",
+      "contexto": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S04"
+    },
+    "I_bcb_sgs_21084": {
+      "tipo": "indicador",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025",
+      "contexto": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S05"
+    },
+    "I_anip_reposicao_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "I_anip_total_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "N781eb189cf1f3ee3": {
+      "tipo": "noticia",
+      "titulo": "Aposta por loja própria na Shopee rende bons resultados para fabricantes de autopeças",
+      "trecho": "Executivos de TAKAO e Marelli Cofap compartilham experiências das empresas com suas lojas próprias O post Aposta por loja própria na Shopee rende bons resultados para fabricantes de autopeças apareceu primeiro em Aftemarket Automotivo .",
+      "data": "13/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/aposta-por-loja-propria-na-shopee-rende-bons-resultados-para-fabricantes-de-autopecas/",
+      "temas": [
+        "Mercado de reposição",
+        "Concorrência",
+        "Canais digitais"
+      ],
+      "leitura_previa": "A venda direta de fabricantes como Marelli Cofap e Takao em marketplaces representa movimento de desintermediação que impacta diretamente a distribuição tradicional de autopeças.",
+      "nota": 85
+    },
+    "N1f8e3496cb86da0e": {
+      "tipo": "noticia",
+      "titulo": "Em setembro, comércio de veículos, autopeças e motos registra queda",
+      "trecho": "As vendas de veículos, motos e autopeças recuaram -1,8% em relação a agosto O post Em setembro, comércio de veículos, autopeças e motos registra queda apareceu primeiro em Aftemarket Automotivo .",
+      "data": "13/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/em-setembro-comercio-de-veiculos-autopecas-e-motos-registra-queda/",
+      "temas": [
+        "Mercado de reposição",
+        "Veículos novos",
+        "Motocicletas"
+      ],
+      "leitura_previa": "Informa sobre a retração mensal nas vendas do comércio automotivo e de autopeças, dado relevante para monitorar o ritmo da demanda de reposição.",
+      "nota": 70
+    },
+    "N885697f3d015917b": {
+      "tipo": "noticia",
+      "titulo": "ANIP: Vendas totais de pneus recuam 10,4% até outubro de 2026",
+      "trecho": "Vendas para montadoras caíram 4,5%. Vendas para reposição retraíram 13,5%. Dados em unidades, acumulado do ano.",
+      "data": "14/11/2026 (data de coleta)",
+      "fonte": "ANIP: vendas de pneus (infográfico mensal)",
+      "url": "https://www.anip.org.br/sitenovo/wp-content/uploads/2026/11/10-PT_INFOGRAFICO_OUT_26.pdf",
+      "temas": [
+        "Mercado de reposição",
+        "Pneus"
+      ],
+      "leitura_previa": "A forte retração nas vendas de pneus para o mercado de reposição sinaliza desaquecimento da demanda e serve de alerta para o planejamento comercial da distribuidora.",
+      "nota": 70
+    },
+    "N4d5c1da27cc172c6": {
+      "tipo": "noticia",
+      "titulo": "Circular Autopeças registra crescimento de quase 200% nas vendas online e destaca evolução e aumento dos canais de venda",
+      "trecho": "Novo e-commerce próprio complementa a atuação da marca no Mercado Livre, Shopee, WhatsApp e loja física em Osasco (SP) O post Circular Autopeças registra crescimento de quase 200% nas vendas online e destaca evolução e aumento dos canais de venda apareceu primeiro em Aftemarket Automotivo .",
+      "data": "16/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/circular-autopecas-registra-crescimento-de-quase-200-nas-vendas-online-e-destaca-evolucao-e-aumento-dos-canais-de-venda/",
+      "temas": [
+        "Mercado de reposição",
+        "Canais digitais"
+      ],
+      "leitura_previa": "Mostra o crescimento acelerado de canais digitais e e-commerce no varejo de autopeças, movimento relevante para a estratégia multicanal da distribuidora.",
+      "nota": 70
+    },
+    "Nd79676e8444252e9": {
+      "tipo": "noticia",
+      "titulo": "Produção de veículos ultrapassa 250 mil unidades em outubro",
+      "trecho": "Dados foram divulgados pela Anfavea O post Produção de veículos ultrapassa 250 mil unidades em outubro apareceu primeiro em Aftemarket Automotivo .",
+      "data": "11/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/producao-de-veiculos-ultrapassa-250-mil-unidades-em-outubro/",
+      "temas": [
+        "Veículos novos"
+      ],
+      "leitura_previa": "O avanço na produção de veículos novos sinaliza a renovação da frota circulante, influenciando o volume e o perfil de demanda futura no mercado de reposição.",
+      "nota": 65
+    },
+    "N98acba084e33f186": {
+      "tipo": "noticia",
+      "titulo": "Fenatran 2026 agita setor de transporte rodoviário em SP",
+      "trecho": "25ª edição da feira apresenta caminhões elétricos, híbridos e a combustão, além de tecnologias para transporte, manutenção e gestão de frotas A edição 2026 da Fenatran segue a todo vapor até o próximo dia 13 de novembro. O evento realizado no São Paulo Expo, Zona Sul de São Paulo, reúne mais de 700...",
+      "data": "12/11/2026",
+      "fonte": "O Mecânico",
+      "url": "https://omecanico.com.br/fenatran-2026-agita-setor-de-transporte-rodoviario-em-sp/",
+      "temas": [
+        "Linha pesada e transporte",
+        "Eletrificação",
+        "Frota"
+      ],
+      "leitura_previa": "Apresenta as novidades e tendências da Fenatran em caminhões, eletrificação e tecnologias de manutenção para frotas pesadas.",
+      "nota": 60
+    }
+  },
+  "indicadores": [
+    {
+      "id": "I_bcb_sgs_3698",
+      "serie_id": "bcb_sgs_3698",
+      "nome": "Câmbio R$/US$ (média mensal)",
+      "unidade": "R$ por US$",
+      "fonte_id": "S03",
+      "observacao": "Afeta o custo das linhas importadas",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 5.1294,
+      "valor_fmt": "R$ 5,13",
+      "var_mes": -0.29739343401947727,
+      "var_mes_fmt": "-0,3%",
+      "var_ano": -4.755361619162568,
+      "var_ano_fmt": "-4,8%",
+      "tipo_variacao": "pct",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025"
+    },
+    {
+      "id": "I_bcb_sgs_4390",
+      "serie_id": "bcb_sgs_4390",
+      "nome": "Selic acumulada no mês",
+      "unidade": "% ao mês",
+      "fonte_id": "S02",
+      "observacao": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia": "2026-11",
+      "referencia_fmt": "nov/2026",
+      "valor": 0.51,
+      "valor_fmt": "0,51%",
+      "var_mes": -0.56,
+      "var_mes_fmt": "-0,56 p.p.",
+      "var_ano": -0.54,
+      "var_ano_fmt": "-0,54 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Selic acumulada no mês: 0,51% em nov/2026; -0,56 p.p. sobre out/2026; -0,54 p.p. sobre nov/2025"
+    },
+    {
+      "id": "I_bcb_sgs_24363",
+      "serie_id": "bcb_sgs_24363",
+      "nome": "IBC-Br (atividade econômica)",
+      "unidade": "índice",
+      "fonte_id": "S01",
+      "observacao": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 109.42914,
+      "valor_fmt": "109,4",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": -0.011458157440569217,
+      "var_ano_fmt": "-0,0%",
+      "tipo_variacao": "pct",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_20662",
+      "serie_id": "bcb_sgs_20662",
+      "nome": "Concessões de crédito a pessoas físicas",
+      "unidade": "R$ milhões",
+      "fonte_id": "S04",
+      "observacao": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 348745.0,
+      "valor_fmt": "R$ 348.745 mi",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 6.256664940129797,
+      "var_ano_fmt": "+6,3%",
+      "tipo_variacao": "pct",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_21084",
+      "serie_id": "bcb_sgs_21084",
+      "nome": "Inadimplência de pessoas físicas",
+      "unidade": "%",
+      "fonte_id": "S05",
+      "observacao": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 5.99,
+      "valor_fmt": "5,99%",
+      "var_mes": -0.04999999999999982,
+      "var_mes_fmt": "-0,05 p.p.",
+      "var_ano": 1.1000000000000005,
+      "var_ano_fmt": "+1,10 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025"
+    },
+    {
+      "id": "I_anip_reposicao_acum",
+      "serie_id": "anip_reposicao_acum",
+      "nome": "Pneus: vendas para reposição (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -13.5,
+      "valor_fmt": "-13,5%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    },
+    {
+      "id": "I_anip_total_acum",
+      "serie_id": "anip_total_acum",
+      "nome": "Pneus: vendas totais (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -10.4,
+      "valor_fmt": "-10,4%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    }
+  ],
+  "tentativas": [
+    {
+      "meta": {
+        "provedor": "gemini",
+        "modelo": "gemini-flash-latest",
+        "modelo_respondeu": "gemini-3.8-flash",
+        "request_id": "oJj8aoaIBr6-_PUPu5_JmQ0",
+        "uso": {
+          "entrada": 2636,
+          "saida": 586,
+          "raciocinio": 1340,
+          "cache_lido": 0
+        },
+        "stop_reason": "STOP",
+        "status": "ok"
+      },
+      "resumo": {
+        "manchete": "Avanço de fabricantes nos canais digitais coincide com retração nas vendas de autopeças e forte queda na reposição de pneus.",
+        "itens": [
+          {
+            "refs": [
+              "N781eb189cf1f3ee3",
+              "N4d5c1da27cc172c6"
+            ],
+            "o_que_aconteceu": "Fabricantes como TAKAO e Marelli Cofap apostam em lojas próprias na Shopee, enquanto varejistas ampliam canais com relatos de crescimento de quase 200% nas vendas online.",
+            "o_que_mudou": "Expansão de lojas próprias de indústrias em marketplaces e multiplicação de canais diretos de venda.",
+            "por_que_importa": "A desintermediação pode pressionar margens da distribuição e acirrar a concorrência direta com as fábricas nos meios digitais.",
+            "classificacao": "risco",
+            "o_que_acompanhar": "Novos movimentos de indústrias de autopeças na venda direta ao consumidor final."
+          },
+          {
+            "refs": [
+              "N1f8e3496cb86da0e"
+            ],
+            "o_que_aconteceu": "O comércio de veículos, autopeças e motos registrou -1,8% em setembro em relação a agosto.",
+            "o_que_mudou": "-1,8% em relação a agosto.",
+            "por_que_importa": "Sinaliza ritmo mais lento no giro das lojas e oficinas, o que pode conter o volume de compras junto aos distribuidores.",
+            "classificacao": "atencao",
+            "o_que_acompanhar": "Entrada de pedidos e propensão a compras do varejo nos meses seguintes."
+          },
+          {
+            "refs": [
+              "I_anip_reposicao_acum",
+              "N885697f3d015917b"
+            ],
+            "o_que_aconteceu": "As vendas de pneus para reposição registraram -13,5% no acumulado até out/2026 contra o mesmo período do ano anterior.",
+            "o_que_mudou": "Vendas totais recuaram 10,4%, com reposição em -13,5% e montadoras em queda de 4,5%.",
+            "por_que_importa": "Aponta desaceleração no consumo de itens de desgaste rápido, sugerindo cautela nas metas e estoques da linha.",
+            "classificacao": "risco",
+            "o_que_acompanhar": "Próximos dados mensais da ANIP e comportamento das importações do segmento."
+          }
+        ],
+        "nota_sobre_os_dados": "Os dados de comércio de peças são referentes a setembro, enquanto o levantamento de pneus reflete o acumulado da indústria nacional até outubro de 2026."
+      },
+      "auditoria": {
+        "aprovado": true,
+        "problemas": []
+      }
+    }
+  ],
+  "versao_prompt": "d25cabc623"
+}
