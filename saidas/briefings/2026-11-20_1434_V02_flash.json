@@ -1,0 +1,349 @@
+{
+  "cabecalho": {
+    "versao": "flash",
+    "visao": "Comercial",
+    "periodo": "14/11/2026 a 20/11/2026",
+    "gerado_em": "20/11/2026 14:34",
+    "provedor": "gemini",
+    "modelo": "gemini-3.8-flash",
+    "contagem": {
+      "no_periodo": 56,
+      "do_setor": 35,
+      "acima_do_corte": 27
+    }
+  },
+  "fatos": {
+    "I_bcb_sgs_3698": {
+      "tipo": "indicador",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025",
+      "contexto": "Afeta o custo das linhas importadas",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S03"
+    },
+    "I_bcb_sgs_4390": {
+      "tipo": "indicador",
+      "frase": "Selic acumulada no mês: 0,66% em nov/2026; -0,41 p.p. sobre out/2026; -0,39 p.p. sobre nov/2025",
+      "contexto": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia_fmt": "nov/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S02"
+    },
+    "I_bcb_sgs_24363": {
+      "tipo": "indicador",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025",
+      "contexto": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S01"
+    },
+    "I_bcb_sgs_20662": {
+      "tipo": "indicador",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025",
+      "contexto": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S04"
+    },
+    "I_bcb_sgs_21084": {
+      "tipo": "indicador",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025",
+      "contexto": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S05"
+    },
+    "I_anip_reposicao_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "I_anip_total_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "N3926afd9fc404103": {
+      "tipo": "noticia",
+      "titulo": "Inmetro vai apertar fiscalização sobre Amazon, Shopee e Mercado Livre",
+      "trecho": "Empresas deverão observar as exigências legais de certificação e segurança das autopeças anunciadas e comercializadas em seus ambientes virtuais O Instituto Nacional de Metrologia, Qualidade e Tecnologia – Inmetro deu um passo importante para ampliar a fiscalização do comércio eletrônico no Brasil....",
+      "data": "18/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/inmetro-vai-apertar-fiscalizacao-sobre-amazon-shopee-e-mercado-livre/",
+      "temas": [
+        "Mercado de reposição",
+        "Regulação e normas",
+        "Canais digitais"
+      ],
+      "leitura_previa": "A fiscalização mais rígida do Inmetro sobre autopeças em marketplaces coíbe o comércio de produtos não certificados e equilibra a concorrência para a distribuição formal.",
+      "nota": 90
+    },
+    "N013c6a4b865a583a": {
+      "tipo": "noticia",
+      "titulo": "Em um ano, varejo paulista de autopeças recua -4,1%; enquanto vendas de veículos crescem +6,8%",
+      "trecho": "Das nove atividades pesquisadas, apenas concessionárias de veículos apresentaram crescimento (6,8%). O post Em um ano, varejo paulista de autopeças recua -4,1%; enquanto vendas de veículos crescem +6,8% apareceu primeiro em Aftemarket Automotivo .",
+      "data": "19/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/em-um-ano-varejo-paulista-de-autopecas-recua-41-enquanto-vendas-de-veiculos-crescem-68/",
+      "temas": [
+        "Mercado de reposição",
+        "Veículos novos",
+        "Canal das montadoras (peça genuína)"
+      ],
+      "leitura_previa": "O recuo de 4,1% no varejo de autopeças em São Paulo aponta retração de demanda na ponta, sinal de alerta crucial para o planejamento de vendas da distribuidora.",
+      "nota": 85
+    },
+    "N7c1cfc2461427caa": {
+      "tipo": "noticia",
+      "titulo": "Vendas de autopeças e acessórios no Mercado Livre se aproximam de R$ 3 bilhões em outubro",
+      "trecho": "Resultado ficou próximo do recorde anual, alcançado em julho, quando as vendas somaram R$ 2,96 bilhões. O post Vendas de autopeças e acessórios no Mercado Livre se aproximam de R$ 3 bilhões em outubro apareceu primeiro em Aftemarket Automotivo .",
+      "data": "17/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/vendas-de-autopecas-e-acessorios-no-mercado-livre-se-aproximam-de-r-3-bilhoes-em-outubro/",
+      "temas": [
+        "Mercado de reposição",
+        "Canais digitais"
+      ],
+      "leitura_previa": "Mostra o expressivo volume financeiro movimentado por autopeças em marketplaces, canal digital que impacta diretamente a distribuição tradicional.",
+      "nota": 83
+    },
+    "N885697f3d015917b": {
+      "tipo": "noticia",
+      "titulo": "ANIP: Vendas totais de pneus recuam 10,4% até outubro de 2026",
+      "trecho": "Vendas para montadoras caíram 4,5%. Vendas para reposição retraíram 13,5%. Dados em unidades, acumulado do ano.",
+      "data": "14/11/2026 (data de coleta)",
+      "fonte": "ANIP: vendas de pneus (infográfico mensal)",
+      "url": "https://www.anip.org.br/sitenovo/wp-content/uploads/2026/11/10-PT_INFOGRAFICO_OUT_26.pdf",
+      "temas": [
+        "Mercado de reposição",
+        "Pneus"
+      ],
+      "leitura_previa": "A forte retração nas vendas de pneus para o mercado de reposição sinaliza desaquecimento da demanda e serve de alerta para o planejamento comercial da distribuidora.",
+      "nota": 70
+    },
+    "N4d5c1da27cc172c6": {
+      "tipo": "noticia",
+      "titulo": "Circular Autopeças registra crescimento de quase 200% nas vendas online e destaca evolução e aumento dos canais de venda",
+      "trecho": "Novo e-commerce próprio complementa a atuação da marca no Mercado Livre, Shopee, WhatsApp e loja física em Osasco (SP) O post Circular Autopeças registra crescimento de quase 200% nas vendas online e destaca evolução e aumento dos canais de venda apareceu primeiro em Aftemarket Automotivo .",
+      "data": "16/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/circular-autopecas-registra-crescimento-de-quase-200-nas-vendas-online-e-destaca-evolucao-e-aumento-dos-canais-de-venda/",
+      "temas": [
+        "Mercado de reposição",
+        "Canais digitais"
+      ],
+      "leitura_previa": "Mostra o crescimento acelerado de canais digitais e e-commerce no varejo de autopeças, movimento relevante para a estratégia multicanal da distribuidora.",
+      "nota": 70
+    },
+    "Nda9cd90ada09e289": {
+      "tipo": "noticia",
+      "titulo": "Corrida tecnológica até 2040 vai redefinir o Aftermarket Automotivo",
+      "trecho": "Estudo da Roland Berger projeta que 30 tecnologias emergentes formarão um mercado superior a € 20 trilhões até 2040 e têm potencial para alterar a lógica de competição, reparação e geração de valor na cadeia automotiva O post Corrida tecnológica até 2040 vai redefinir o Aftermarket Automotivo...",
+      "data": "19/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/corrida-tecnologica-ate-2040-vai-redefinir-o-aftermarket-automotivo/",
+      "temas": [
+        "Mercado de reposição",
+        "Tecnologia veicular",
+        "Oficinas e reparação"
+      ],
+      "leitura_previa": "Estudo estratégico relevante que projeta impactos das novas tecnologias na dinâmica de reparação e na cadeia de valor do mercado de reposição no longo prazo.",
+      "nota": 65
+    }
+  },
+  "indicadores": [
+    {
+      "id": "I_bcb_sgs_3698",
+      "serie_id": "bcb_sgs_3698",
+      "nome": "Câmbio R$/US$ (média mensal)",
+      "unidade": "R$ por US$",
+      "fonte_id": "S03",
+      "observacao": "Afeta o custo das linhas importadas",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 5.1294,
+      "valor_fmt": "R$ 5,13",
+      "var_mes": -0.29739343401947727,
+      "var_mes_fmt": "-0,3%",
+      "var_ano": -4.755361619162568,
+      "var_ano_fmt": "-4,8%",
+      "tipo_variacao": "pct",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025"
+    },
+    {
+      "id": "I_bcb_sgs_4390",
+      "serie_id": "bcb_sgs_4390",
+      "nome": "Selic acumulada no mês",
+      "unidade": "% ao mês",
+      "fonte_id": "S02",
+      "observacao": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia": "2026-11",
+      "referencia_fmt": "nov/2026",
+      "valor": 0.66,
+      "valor_fmt": "0,66%",
+      "var_mes": -0.41000000000000003,
+      "var_mes_fmt": "-0,41 p.p.",
+      "var_ano": -0.39,
+      "var_ano_fmt": "-0,39 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Selic acumulada no mês: 0,66% em nov/2026; -0,41 p.p. sobre out/2026; -0,39 p.p. sobre nov/2025"
+    },
+    {
+      "id": "I_bcb_sgs_24363",
+      "serie_id": "bcb_sgs_24363",
+      "nome": "IBC-Br (atividade econômica)",
+      "unidade": "índice",
+      "fonte_id": "S01",
+      "observacao": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 109.42914,
+      "valor_fmt": "109,4",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": -0.011458157440569217,
+      "var_ano_fmt": "-0,0%",
+      "tipo_variacao": "pct",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_20662",
+      "serie_id": "bcb_sgs_20662",
+      "nome": "Concessões de crédito a pessoas físicas",
+      "unidade": "R$ milhões",
+      "fonte_id": "S04",
+      "observacao": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 348745.0,
+      "valor_fmt": "R$ 348.745 mi",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 6.256664940129797,
+      "var_ano_fmt": "+6,3%",
+      "tipo_variacao": "pct",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_21084",
+      "serie_id": "bcb_sgs_21084",
+      "nome": "Inadimplência de pessoas físicas",
+      "unidade": "%",
+      "fonte_id": "S05",
+      "observacao": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 5.99,
+      "valor_fmt": "5,99%",
+      "var_mes": -0.04999999999999982,
+      "var_mes_fmt": "-0,05 p.p.",
+      "var_ano": 1.1000000000000005,
+      "var_ano_fmt": "+1,10 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025"
+    },
+    {
+      "id": "I_anip_reposicao_acum",
+      "serie_id": "anip_reposicao_acum",
+      "nome": "Pneus: vendas para reposição (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -13.5,
+      "valor_fmt": "-13,5%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    },
+    {
+      "id": "I_anip_total_acum",
+      "serie_id": "anip_total_acum",
+      "nome": "Pneus: vendas totais (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -10.4,
+      "valor_fmt": "-10,4%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    }
+  ],
+  "tentativas": [
+    {
+      "meta": {
+        "provedor": "gemini",
+        "modelo": "gemini-flash-latest",
+        "modelo_respondeu": "gemini-3.8-flash",
+        "request_id": "koQAa9zaGOSsm9cP8_TS6AU",
+        "uso": {
+          "entrada": 2726,
+          "saida": 611,
+          "raciocinio": 1537,
+          "cache_lido": 0
+        },
+        "stop_reason": "STOP",
+        "status": "ok"
+      },
+      "resumo": {
+        "manchete": "Mercado físico paulista e pneus enfrentam retração na reposição enquanto canais digitais avançam sob mira do Inmetro.",
+        "itens": [
+          {
+            "refs": [
+              "N013c6a4b865a583a"
+            ],
+            "o_que_aconteceu": "O varejo paulista de autopeças registrou -4,1% em um ano, enquanto as concessionárias de veículos cresceram +6,8%.",
+            "o_que_mudou": "Apenas a venda de veículos apresentou crescimento entre as nove atividades pesquisadas no período.",
+            "por_que_importa": "Sinaliza demanda desaquecida na ponta do aftermarket no principal mercado do país, afetando o repasse de volume da distribuição.",
+            "classificacao": "atencao",
+            "o_que_acompanhar": "Volume de faturamento e fluxo de compras de autopeças pelas oficinas paulistas."
+          },
+          {
+            "refs": [
+              "N7c1cfc2461427caa",
+              "N3926afd9fc404103"
+            ],
+            "o_que_aconteceu": "As vendas de autopeças no Mercado Livre se aproximaram de R$ 3 bilhões em outubro, enquanto o Inmetro anunciou que vai apertar a fiscalização sobre marketplaces.",
+            "o_que_mudou": "O faturamento digital chegou perto do recorde de R$ 2,96 bilhões de julho e plataformas como Amazon, Shopee e Mercado Livre deverão checar certificações.",
+            "por_que_importa": "O avanço online disputa a margem da distribuição tradicional, mas a exigência legal pode coibir a concorrência informal sem certificação.",
+            "classificacao": "oportunidade",
+            "o_que_acompanhar": "Regras práticas e bloqueios de anúncios irregulares nos ambientes virtuais."
+          },
+          {
+            "refs": [
+              "I_anip_reposicao_acum",
+              "N885697f3d015917b"
+            ],
+            "o_que_aconteceu": "As vendas de pneus para reposição registraram -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior.",
+            "o_que_mudou": "As vendas totais da indústria associada acumulam -10,4%, puxadas pela retração mais acentuada no aftermarket do que em montadoras.",
+            "por_que_importa": "Mostra adiamento da manutenção preventiva em rodagem, o que pode pressionar o giro de estoques e exigir cautela em compras.",
+            "classificacao": "risco",
+            "o_que_acompanhar": "Entrada de volumes de pneus importados por terceiros e pedidos da rede de oficinas."
+          }
+        ],
+        "nota_sobre_os_dados": "Dados da ANIP refletem somente a indústria nacional associada, sem incluir importações por terceiros. Indicadores do varejo paulista têm abrangência regional."
+      },
+      "auditoria": {
+        "aprovado": true,
+        "problemas": []
+      }
+    }
+  ],
+  "versao_prompt": "a826030136"
+}
