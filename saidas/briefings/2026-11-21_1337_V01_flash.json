@@ -1,0 +1,346 @@
+{
+  "cabecalho": {
+    "versao": "flash",
+    "visao": "Presidência",
+    "periodo": "15/11/2026 a 21/11/2026",
+    "gerado_em": "21/11/2026 13:37",
+    "provedor": "gemini",
+    "modelo": "gemini-3.8-flash",
+    "contagem": {
+      "no_periodo": 55,
+      "do_setor": 34,
+      "acima_do_corte": 16
+    }
+  },
+  "fatos": {
+    "I_bcb_sgs_3698": {
+      "tipo": "indicador",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025",
+      "contexto": "Afeta o custo das linhas importadas",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S03"
+    },
+    "I_bcb_sgs_4390": {
+      "tipo": "indicador",
+      "frase": "Selic acumulada no mês: 0,66% em nov/2026; -0,41 p.p. sobre out/2026; -0,39 p.p. sobre nov/2025",
+      "contexto": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia_fmt": "nov/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S02"
+    },
+    "I_bcb_sgs_24363": {
+      "tipo": "indicador",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025",
+      "contexto": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S01"
+    },
+    "I_bcb_sgs_20662": {
+      "tipo": "indicador",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025",
+      "contexto": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S04"
+    },
+    "I_bcb_sgs_21084": {
+      "tipo": "indicador",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025",
+      "contexto": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S05"
+    },
+    "I_anip_reposicao_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "I_anip_total_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "N013c6a4b865a583a": {
+      "tipo": "noticia",
+      "titulo": "Em um ano, varejo paulista de autopeças recua -4,1%; enquanto vendas de veículos crescem +6,8%",
+      "trecho": "Das nove atividades pesquisadas, apenas concessionárias de veículos apresentaram crescimento (6,8%). O post Em um ano, varejo paulista de autopeças recua -4,1%; enquanto vendas de veículos crescem +6,8% apareceu primeiro em Aftemarket Automotivo .",
+      "data": "19/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/em-um-ano-varejo-paulista-de-autopecas-recua-41-enquanto-vendas-de-veiculos-crescem-68/",
+      "temas": [
+        "Mercado de reposição",
+        "Veículos novos",
+        "Canal das montadoras (peça genuína)"
+      ],
+      "leitura_previa": "O recuo de 4,1% no varejo de autopeças em São Paulo aponta retração de demanda na ponta, sinal de alerta crucial para o planejamento de vendas da distribuidora.",
+      "nota": 85
+    },
+    "N3926afd9fc404103": {
+      "tipo": "noticia",
+      "titulo": "Inmetro vai apertar fiscalização sobre Amazon, Shopee e Mercado Livre",
+      "trecho": "Empresas deverão observar as exigências legais de certificação e segurança das autopeças anunciadas e comercializadas em seus ambientes virtuais O Instituto Nacional de Metrologia, Qualidade e Tecnologia – Inmetro deu um passo importante para ampliar a fiscalização do comércio eletrônico no Brasil....",
+      "data": "18/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/inmetro-vai-apertar-fiscalizacao-sobre-amazon-shopee-e-mercado-livre/",
+      "temas": [
+        "Mercado de reposição",
+        "Regulação e normas",
+        "Canais digitais"
+      ],
+      "leitura_previa": "A fiscalização mais rígida do Inmetro sobre autopeças em marketplaces coíbe o comércio de produtos não certificados e equilibra a concorrência para a distribuição formal.",
+      "nota": 75
+    },
+    "N7c1cfc2461427caa": {
+      "tipo": "noticia",
+      "titulo": "Vendas de autopeças e acessórios no Mercado Livre se aproximam de R$ 3 bilhões em outubro",
+      "trecho": "Resultado ficou próximo do recorde anual, alcançado em julho, quando as vendas somaram R$ 2,96 bilhões. O post Vendas de autopeças e acessórios no Mercado Livre se aproximam de R$ 3 bilhões em outubro apareceu primeiro em Aftemarket Automotivo .",
+      "data": "17/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/vendas-de-autopecas-e-acessorios-no-mercado-livre-se-aproximam-de-r-3-bilhoes-em-outubro/",
+      "temas": [
+        "Mercado de reposição",
+        "Canais digitais"
+      ],
+      "leitura_previa": "Mostra o expressivo volume financeiro movimentado por autopeças em marketplaces, canal digital que impacta diretamente a distribuição tradicional.",
+      "nota": 68
+    },
+    "N4d5c1da27cc172c6": {
+      "tipo": "noticia",
+      "titulo": "Circular Autopeças registra crescimento de quase 200% nas vendas online e destaca evolução e aumento dos canais de venda",
+      "trecho": "Novo e-commerce próprio complementa a atuação da marca no Mercado Livre, Shopee, WhatsApp e loja física em Osasco (SP) O post Circular Autopeças registra crescimento de quase 200% nas vendas online e destaca evolução e aumento dos canais de venda apareceu primeiro em Aftemarket Automotivo .",
+      "data": "16/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/circular-autopecas-registra-crescimento-de-quase-200-nas-vendas-online-e-destaca-evolucao-e-aumento-dos-canais-de-venda/",
+      "temas": [
+        "Mercado de reposição",
+        "Canais digitais"
+      ],
+      "leitura_previa": "Mostra o crescimento acelerado de canais digitais e e-commerce no varejo de autopeças, movimento relevante para a estratégia multicanal da distribuidora.",
+      "nota": 55
+    },
+    "N591dcaff52ab3adf": {
+      "tipo": "noticia",
+      "titulo": "Heliar amplia garantia da linha de baterias para motocicletas para 12 meses",
+      "trecho": "Medida dobra o prazo anterior de cobertura e passa a valer automaticamente para todas as vendas realizadas ao consumidor final a partir de novembro, incluindo produtos já em estoque nas revendas The post Heliar amplia garantia da linha de baterias para motocicletas para 12 meses appeared first on .",
+      "data": "19/11/2026",
+      "fonte": "Novo Varejo Automotivo",
+      "url": "https://novovarejoautomotivo.com.br/heliar-amplia-garantia-da-linha-de-baterias-para-motocicletas-para-12-meses/",
+      "temas": [
+        "Mercado de reposição",
+        "Motocicletas"
+      ],
+      "leitura_previa": "A extensão do prazo de garantia da Heliar afeta a política comercial e a competitividade do estoque de baterias para motos no pós-venda.",
+      "nota": 55
+    },
+    "Nb8e7644e9dd6ee4c": {
+      "tipo": "noticia",
+      "titulo": "Heliar estende garantia da linha de baterias para motocicletas para 12 meses",
+      "trecho": "Reafirmando seu compromisso com qualidade, desempenho e confiabilidade no mercado de reposição, a Baterias Heliar, marca da Clarios, anunciou a ampliação da garantia de sua linha de baterias para motocicletas (Heliar Moto). A partir de novembro, o prazo de cobertura passa de 6 para 12 meses,...",
+      "data": "19/11/2026",
+      "fonte": "pecamentor.com.br",
+      "url": "https://pecamentor.com.br/heliar-estende-garantia-da-linha-de-baterias-para-motocicletas-para-12-meses/",
+      "temas": [
+        "Mercado de reposição",
+        "Motocicletas"
+      ],
+      "leitura_previa": "A extensão da garantia das baterias Heliar para motocicletas eleva a competitividade do produto no pós-venda e afeta diretamente a gestão comercial e de garantias na distribuição.",
+      "nota": 55
+    }
+  },
+  "indicadores": [
+    {
+      "id": "I_bcb_sgs_3698",
+      "serie_id": "bcb_sgs_3698",
+      "nome": "Câmbio R$/US$ (média mensal)",
+      "unidade": "R$ por US$",
+      "fonte_id": "S03",
+      "observacao": "Afeta o custo das linhas importadas",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 5.1294,
+      "valor_fmt": "R$ 5,13",
+      "var_mes": -0.29739343401947727,
+      "var_mes_fmt": "-0,3%",
+      "var_ano": -4.755361619162568,
+      "var_ano_fmt": "-4,8%",
+      "tipo_variacao": "pct",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025"
+    },
+    {
+      "id": "I_bcb_sgs_4390",
+      "serie_id": "bcb_sgs_4390",
+      "nome": "Selic acumulada no mês",
+      "unidade": "% ao mês",
+      "fonte_id": "S02",
+      "observacao": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia": "2026-11",
+      "referencia_fmt": "nov/2026",
+      "valor": 0.66,
+      "valor_fmt": "0,66%",
+      "var_mes": -0.41000000000000003,
+      "var_mes_fmt": "-0,41 p.p.",
+      "var_ano": -0.39,
+      "var_ano_fmt": "-0,39 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Selic acumulada no mês: 0,66% em nov/2026; -0,41 p.p. sobre out/2026; -0,39 p.p. sobre nov/2025"
+    },
+    {
+      "id": "I_bcb_sgs_24363",
+      "serie_id": "bcb_sgs_24363",
+      "nome": "IBC-Br (atividade econômica)",
+      "unidade": "índice",
+      "fonte_id": "S01",
+      "observacao": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 109.42914,
+      "valor_fmt": "109,4",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": -0.011458157440569217,
+      "var_ano_fmt": "-0,0%",
+      "tipo_variacao": "pct",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_20662",
+      "serie_id": "bcb_sgs_20662",
+      "nome": "Concessões de crédito a pessoas físicas",
+      "unidade": "R$ milhões",
+      "fonte_id": "S04",
+      "observacao": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 348745.0,
+      "valor_fmt": "R$ 348.745 mi",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 6.256664940129797,
+      "var_ano_fmt": "+6,3%",
+      "tipo_variacao": "pct",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_21084",
+      "serie_id": "bcb_sgs_21084",
+      "nome": "Inadimplência de pessoas físicas",
+      "unidade": "%",
+      "fonte_id": "S05",
+      "observacao": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 5.99,
+      "valor_fmt": "5,99%",
+      "var_mes": -0.04999999999999982,
+      "var_mes_fmt": "-0,05 p.p.",
+      "var_ano": 1.1000000000000005,
+      "var_ano_fmt": "+1,10 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025"
+    },
+    {
+      "id": "I_anip_reposicao_acum",
+      "serie_id": "anip_reposicao_acum",
+      "nome": "Pneus: vendas para reposição (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -13.5,
+      "valor_fmt": "-13,5%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    },
+    {
+      "id": "I_anip_total_acum",
+      "serie_id": "anip_total_acum",
+      "nome": "Pneus: vendas totais (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -10.4,
+      "valor_fmt": "-10,4%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    }
+  ],
+  "tentativas": [
+    {
+      "meta": {
+        "provedor": "gemini",
+        "modelo": "gemini-flash-latest",
+        "modelo_respondeu": "gemini-3.8-flash",
+        "request_id": "zcgBa8GtL-u7ur8PhITpkQ8",
+        "uso": {
+          "entrada": 2726,
+          "saida": 620,
+          "raciocinio": 1592,
+          "cache_lido": 0
+        },
+        "stop_reason": "STOP",
+        "status": "ok"
+      },
+      "resumo": {
+        "manchete": "Pressão nas vendas do varejo paulista contrasta com alívio no câmbio e aperto fiscalizatório sobre marketplaces.",
+        "itens": [
+          {
+            "refs": [
+              "N013c6a4b865a583a"
+            ],
+            "o_que_aconteceu": "O varejo paulista de autopeças registrou -4,1% em um ano, enquanto as concessionárias de veículos cresceram +6,8%.",
+            "o_que_mudou": "Descolamento entre a retração da reposição e o avanço da rede autorizada.",
+            "por_que_importa": "Sinaliza desaquecimento na ponta e possível migração de serviços para a rede de montadoras.",
+            "classificacao": "risco",
+            "o_que_acompanhar": "Evolução do faturamento das oficinas e lojas de autopeças clientes nos próximos meses."
+          },
+          {
+            "refs": [
+              "N3926afd9fc404103"
+            ],
+            "o_que_aconteceu": "O Inmetro anunciou que vai ampliar a fiscalização de autopeças anunciadas na Amazon, Shopee e Mercado Livre.",
+            "o_que_mudou": "Exigência direta de certificação e segurança para produtos vendidos nos canais eletrônicos.",
+            "por_que_importa": "Pode equilibrar a concorrência contra peças não certificadas vendidas sem conformidade técnica.",
+            "classificacao": "oportunidade",
+            "o_que_acompanhar": "Apreensões, retirada de anúncios irregulares e rigor das inspeções nos centros de distribuição digitais."
+          },
+          {
+            "refs": [
+              "I_bcb_sgs_3698"
+            ],
+            "o_que_aconteceu": "O câmbio médio R$/US$ ficou em R$ 5,13 em out/2026.",
+            "o_que_mudou": "-0,3% sobre set/2026 e -4,8% sobre out/2025.",
+            "por_que_importa": "Pode aliviar a pressão de custos na importação direta e na compra de itens indexados ao dólar.",
+            "classificacao": "neutro",
+            "o_que_acompanhar": "Repasse de preços das indústrias sistemistas e estabilidade das cotações futuras."
+          }
+        ],
+        "nota_sobre_os_dados": "Dados econômicos oficiais refletem fechamentos de setembro e outubro de 2026; a pesquisa de varejo restringe-se ao estado de São Paulo."
+      },
+      "auditoria": {
+        "aprovado": true,
+        "problemas": []
+      }
+    }
+  ],
+  "versao_prompt": "e2724947dc"
+}
