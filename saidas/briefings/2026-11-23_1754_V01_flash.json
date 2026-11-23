@@ -1,0 +1,351 @@
+{
+  "cabecalho": {
+    "versao": "flash",
+    "visao": "Presidência",
+    "periodo": "17/11/2026 a 23/11/2026",
+    "gerado_em": "23/11/2026 17:54",
+    "provedor": "gemini",
+    "modelo": "gemini-3.8-flash",
+    "contagem": {
+      "no_periodo": 63,
+      "do_setor": 44,
+      "acima_do_corte": 22
+    }
+  },
+  "fatos": {
+    "I_bcb_sgs_3698": {
+      "tipo": "indicador",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025",
+      "contexto": "Afeta o custo das linhas importadas",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S03"
+    },
+    "I_bcb_sgs_4390": {
+      "tipo": "indicador",
+      "frase": "Selic acumulada no mês: 0,66% em nov/2026; -0,41 p.p. sobre out/2026; -0,39 p.p. sobre nov/2025",
+      "contexto": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia_fmt": "nov/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S02"
+    },
+    "I_bcb_sgs_24363": {
+      "tipo": "indicador",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025",
+      "contexto": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S01"
+    },
+    "I_bcb_sgs_20662": {
+      "tipo": "indicador",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025",
+      "contexto": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S04"
+    },
+    "I_bcb_sgs_21084": {
+      "tipo": "indicador",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025",
+      "contexto": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S05"
+    },
+    "I_anip_reposicao_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "I_anip_total_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "N5e623147f55a2ac4": {
+      "tipo": "noticia",
+      "titulo": "PACCAR Parts revela investimento em Centro de Distribuição",
+      "trecho": "Unidade em Ponta Grossa (PR) recebeu investimento de R$ 200 milhões e utiliza sistemas automatizados para gerenciar posições de armazenagem Durante a última edição da Fenatran, a PACCAR Parts destacou sua estrutura de distribuição de peças para caminhões no Brasil. O centro de distribuição de peças...",
+      "data": "23/11/2026",
+      "fonte": "O Mecânico",
+      "url": "https://omecanico.com.br/paccar-parts-revela-investimento-em-centro-de-distribuicao/",
+      "temas": [
+        "Mercado de reposição",
+        "Concorrência",
+        "Logística e abastecimento",
+        "Linha pesada e transporte",
+        "Canal das montadoras (peça genuína)"
+      ],
+      "leitura_previa": "O investimento de R$ 200 milhões da PACCAR Parts em um centro de distribuição automatizado fortalece a rede de suprimentos da montadora e eleva a concorrência na reposição para a linha pesada.",
+      "nota": 87
+    },
+    "N013c6a4b865a583a": {
+      "tipo": "noticia",
+      "titulo": "Em um ano, varejo paulista de autopeças recua -4,1%; enquanto vendas de veículos crescem +6,8%",
+      "trecho": "Das nove atividades pesquisadas, apenas concessionárias de veículos apresentaram crescimento (6,8%). O post Em um ano, varejo paulista de autopeças recua -4,1%; enquanto vendas de veículos crescem +6,8% apareceu primeiro em Aftemarket Automotivo .",
+      "data": "19/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/em-um-ano-varejo-paulista-de-autopecas-recua-41-enquanto-vendas-de-veiculos-crescem-68/",
+      "temas": [
+        "Mercado de reposição",
+        "Veículos novos",
+        "Canal das montadoras (peça genuína)"
+      ],
+      "leitura_previa": "O recuo de 4,1% no varejo de autopeças em São Paulo aponta retração de demanda na ponta, sinal de alerta crucial para o planejamento de vendas da distribuidora.",
+      "nota": 85
+    },
+    "Nc4caf839b7165a98": {
+      "tipo": "noticia",
+      "titulo": "SKF Vertevo revela nova identidade visual",
+      "trecho": "Divisão automotiva da SKF mostra nova identidade visual e inicia nova fase como empresa independente. Estreia na bolsa será em dezembro A SKF Vertevo, divisão automotiva da SKF, avança em seu processo de separação e revelou a nova identidade própria. O movimento representa nova etapa na construção...",
+      "data": "23/11/2026",
+      "fonte": "O Mecânico",
+      "url": "https://omecanico.com.br/skf-vertevo-revela-nova-identidade-visual/",
+      "temas": [
+        "Mercado de reposição",
+        "Fusões e aquisições"
+      ],
+      "leitura_previa": "A separacao da divisao automotiva da SKF em empresa independente com estreia na bolsa afeta a governanca e o relacionamento comercial de um importante fabricante de autopeças.",
+      "nota": 80
+    },
+    "N3926afd9fc404103": {
+      "tipo": "noticia",
+      "titulo": "Inmetro vai apertar fiscalização sobre Amazon, Shopee e Mercado Livre",
+      "trecho": "Empresas deverão observar as exigências legais de certificação e segurança das autopeças anunciadas e comercializadas em seus ambientes virtuais O Instituto Nacional de Metrologia, Qualidade e Tecnologia – Inmetro deu um passo importante para ampliar a fiscalização do comércio eletrônico no Brasil....",
+      "data": "18/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/inmetro-vai-apertar-fiscalizacao-sobre-amazon-shopee-e-mercado-livre/",
+      "temas": [
+        "Mercado de reposição",
+        "Regulação e normas",
+        "Canais digitais"
+      ],
+      "leitura_previa": "A fiscalização mais rígida do Inmetro sobre autopeças em marketplaces coíbe o comércio de produtos não certificados e equilibra a concorrência para a distribuição formal.",
+      "nota": 75
+    },
+    "N3b20d288db33906f": {
+      "tipo": "noticia",
+      "titulo": "Diretor do Sincopeças Brasil faz Raio-X do Aftermarket Automotivo maranhense",
+      "trecho": "Diferentemente de outras localidades do país, estado ainda vive início de processo de consolidação, conta Elcias Castro The post Diretor do Sincopeças Brasil faz Raio-X do Aftermarket Automotivo maranhense appeared first on .",
+      "data": "23/11/2026",
+      "fonte": "Novo Varejo Automotivo",
+      "url": "https://novovarejoautomotivo.com.br/diretor-do-sincopecas-brasil-faz-raio-x-do-aftermarket-automotivo-maranhense/",
+      "temas": [
+        "Mercado de reposição",
+        "Concorrência"
+      ],
+      "leitura_previa": "Apresenta um panorama regional sobre o mercado de reposição e o processo de consolidação no Maranhão, útil para estratégias de expansão e inteligência de mercado.",
+      "nota": 70
+    },
+    "N47d62ce7c4855887": {
+      "tipo": "noticia",
+      "titulo": "Diretor do Sincopeças Brasil faz raio",
+      "trecho": "Que o aftermarket automotivo brasileiro está entre os maiores do mundo ninguém discute. O que ainda recebe menos atenção é que esse gigante é marcado por diferenças regionais profundas – da composição da frota aos modelos de negócio, passando por estrutura comercial, desafios logísticos e...",
+      "data": "23/11/2026",
+      "fonte": "pecamentor.com.br",
+      "url": "https://pecamentor.com.br/diretor-do-sincopecas-brasil-faz-raio/",
+      "temas": [
+        "Mercado de reposição",
+        "Logística e abastecimento",
+        "Frota"
+      ],
+      "leitura_previa": "Apresenta uma análise institucional sobre as disparidades regionais na frota, logística e modelos de negócio do aftermarket automotivo nacional, auxiliando no planejamento comercial da distribuidora.",
+      "nota": 70
+    }
+  },
+  "indicadores": [
+    {
+      "id": "I_bcb_sgs_3698",
+      "serie_id": "bcb_sgs_3698",
+      "nome": "Câmbio R$/US$ (média mensal)",
+      "unidade": "R$ por US$",
+      "fonte_id": "S03",
+      "observacao": "Afeta o custo das linhas importadas",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 5.1294,
+      "valor_fmt": "R$ 5,13",
+      "var_mes": -0.29739343401947727,
+      "var_mes_fmt": "-0,3%",
+      "var_ano": -4.755361619162568,
+      "var_ano_fmt": "-4,8%",
+      "tipo_variacao": "pct",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025"
+    },
+    {
+      "id": "I_bcb_sgs_4390",
+      "serie_id": "bcb_sgs_4390",
+      "nome": "Selic acumulada no mês",
+      "unidade": "% ao mês",
+      "fonte_id": "S02",
+      "observacao": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia": "2026-11",
+      "referencia_fmt": "nov/2026",
+      "valor": 0.66,
+      "valor_fmt": "0,66%",
+      "var_mes": -0.41000000000000003,
+      "var_mes_fmt": "-0,41 p.p.",
+      "var_ano": -0.39,
+      "var_ano_fmt": "-0,39 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Selic acumulada no mês: 0,66% em nov/2026; -0,41 p.p. sobre out/2026; -0,39 p.p. sobre nov/2025"
+    },
+    {
+      "id": "I_bcb_sgs_24363",
+      "serie_id": "bcb_sgs_24363",
+      "nome": "IBC-Br (atividade econômica)",
+      "unidade": "índice",
+      "fonte_id": "S01",
+      "observacao": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 109.42914,
+      "valor_fmt": "109,4",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": -0.011458157440569217,
+      "var_ano_fmt": "-0,0%",
+      "tipo_variacao": "pct",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_20662",
+      "serie_id": "bcb_sgs_20662",
+      "nome": "Concessões de crédito a pessoas físicas",
+      "unidade": "R$ milhões",
+      "fonte_id": "S04",
+      "observacao": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 348745.0,
+      "valor_fmt": "R$ 348.745 mi",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 6.256664940129797,
+      "var_ano_fmt": "+6,3%",
+      "tipo_variacao": "pct",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 348.745 mi em set/2026; +6,3% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_21084",
+      "serie_id": "bcb_sgs_21084",
+      "nome": "Inadimplência de pessoas físicas",
+      "unidade": "%",
+      "fonte_id": "S05",
+      "observacao": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 5.99,
+      "valor_fmt": "5,99%",
+      "var_mes": -0.04999999999999982,
+      "var_mes_fmt": "-0,05 p.p.",
+      "var_ano": 1.1000000000000005,
+      "var_ano_fmt": "+1,10 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Inadimplência de pessoas físicas: 5,99% em set/2026; -0,05 p.p. sobre ago/2026; +1,10 p.p. sobre set/2025"
+    },
+    {
+      "id": "I_anip_reposicao_acum",
+      "serie_id": "anip_reposicao_acum",
+      "nome": "Pneus: vendas para reposição (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -13.5,
+      "valor_fmt": "-13,5%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    },
+    {
+      "id": "I_anip_total_acum",
+      "serie_id": "anip_total_acum",
+      "nome": "Pneus: vendas totais (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -10.4,
+      "valor_fmt": "-10,4%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    }
+  ],
+  "tentativas": [
+    {
+      "meta": {
+        "provedor": "gemini",
+        "modelo": "gemini-flash-latest",
+        "modelo_respondeu": "gemini-3.8-flash",
+        "request_id": "7KcEa6alDoejo_UPsoPr0Ag",
+        "uso": {
+          "entrada": 2734,
+          "saida": 607,
+          "raciocinio": 1968,
+          "cache_lido": 0
+        },
+        "stop_reason": "STOP",
+        "status": "ok"
+      },
+      "resumo": {
+        "manchete": "Movimentações estratégicas de montadoras e grandes fabricantes coincidem com arrefecimento cambial e de juros.",
+        "itens": [
+          {
+            "refs": [
+              "N5e623147f55a2ac4"
+            ],
+            "o_que_aconteceu": "A PACCAR Parts divulgou investimento de R$ 200 milhões em centro de distribuição automatizado em Ponta Grossa (PR).",
+            "o_que_mudou": "A montadora expande estrutura logística automatizada própria voltada a peças para caminhões no Brasil.",
+            "por_que_importa": "O avanço logístico da peça genuína pode intensificar a concorrência das montadoras contra o aftermarket independente na linha pesada.",
+            "classificacao": "risco",
+            "o_que_acompanhar": "Tempo de resposta e nível de serviço da rede de concessionárias DAF."
+          },
+          {
+            "refs": [
+              "Nc4caf839b7165a98"
+            ],
+            "o_que_aconteceu": "A SKF Vertevo anunciou nova identidade visual na separação da divisão automotiva da SKF, com estreia na bolsa em dezembro.",
+            "o_que_mudou": "A divisão passa a atuar como empresa independente no mercado.",
+            "por_que_importa": "A mudança societária pode impactar políticas comerciais, contratos e direcionamento estratégico de um fabricante essencial de autopeças.",
+            "classificacao": "atencao",
+            "o_que_acompanhar": "Novas diretrizes comerciais da empresa após a abertura de capital."
+          },
+          {
+            "refs": [
+              "I_bcb_sgs_3698",
+              "I_bcb_sgs_4390"
+            ],
+            "o_que_aconteceu": "O Câmbio R$/US$ registrou R$ 5,13 em out/2026 e a Selic acumulada no mês ficou em 0,66% em nov/2026.",
+            "o_que_mudou": "O câmbio registrou -0,3% sobre set/2026 e -4,8% sobre out/2025, enquanto a Selic marcou -0,41 p.p. sobre out/2026 e -0,39 p.p. sobre nov/2025.",
+            "por_que_importa": "O alívio cambial e financeiro pode reduzir a pressão no custo de reposição de itens importados e na rolagem de capital de giro.",
+            "classificacao": "oportunidade",
+            "o_que_acompanhar": "Estabilidade da moeda e ritmo de repasse dos preços industriais."
+          }
+        ],
+        "nota_sobre_os_dados": "Os indicadores macroeconômicos oficiais possuem defasagens de apuração (setembro a novembro de 2026), e os fatos de mercado cobrem anúncios setoriais pontuais da semana."
+      },
+      "auditoria": {
+        "aprovado": true,
+        "problemas": []
+      }
+    }
+  ],
+  "versao_prompt": "ba3258860a"
+}
