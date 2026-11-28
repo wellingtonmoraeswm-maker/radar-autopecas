@@ -1,0 +1,352 @@
+{
+  "cabecalho": {
+    "versao": "flash",
+    "visao": "Comercial",
+    "periodo": "22/11/2026 a 28/11/2026",
+    "gerado_em": "28/11/2026 14:23",
+    "provedor": "gemini",
+    "modelo": "gemini-3.8-flash",
+    "contagem": {
+      "no_periodo": 98,
+      "do_setor": 69,
+      "acima_do_corte": 45
+    }
+  },
+  "fatos": {
+    "I_bcb_sgs_3698": {
+      "tipo": "indicador",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025",
+      "contexto": "Afeta o custo das linhas importadas",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S03"
+    },
+    "I_bcb_sgs_4390": {
+      "tipo": "indicador",
+      "frase": "Selic acumulada no mês: 0,92% em nov/2026; -0,15 p.p. sobre out/2026; -0,13 p.p. sobre nov/2025",
+      "contexto": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia_fmt": "nov/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S02"
+    },
+    "I_bcb_sgs_24363": {
+      "tipo": "indicador",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025",
+      "contexto": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia_fmt": "set/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S01"
+    },
+    "I_bcb_sgs_20662": {
+      "tipo": "indicador",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 347.010 mi em out/2026; +0,6% sobre out/2025",
+      "contexto": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S04"
+    },
+    "I_bcb_sgs_21084": {
+      "tipo": "indicador",
+      "frase": "Inadimplência de pessoas físicas: 6,13% em out/2026; +0,14 p.p. sobre set/2026; +1,14 p.p. sobre out/2025",
+      "contexto": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia_fmt": "out/2026",
+      "fonte": "Banco Central do Brasil (SGS)",
+      "fonte_id": "S05"
+    },
+    "I_anip_reposicao_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "I_anip_total_acum": {
+      "tipo": "indicador",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior",
+      "contexto": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia_fmt": "out/2026",
+      "fonte": "ANIP (infográfico mensal)",
+      "fonte_id": "S14"
+    },
+    "N548e94aa89168a63": {
+      "tipo": "noticia",
+      "titulo": "Volkswagen lança nova linha de peças multimarcas",
+      "trecho": "Batizada de Economy+, a linha estreia com filtros e óleo lubrificante para veículos fora da garantia de fábrica. Confira detalhes A Volkswagen anunciou a Economy+, nova marca de peças voltada ao mercado independente de manutenção automotiva. A iniciativa amplia a atuação da fabricante no pós-vendas...",
+      "data": "26/11/2026",
+      "fonte": "O Mecânico",
+      "url": "https://omecanico.com.br/volkswagen-lanca-nova-linha-de-pecas-multimarcas/",
+      "temas": [
+        "Mercado de reposição",
+        "Concorrência",
+        "Canal das montadoras (peça genuína)"
+      ],
+      "leitura_previa": "O lancamento de uma linha multimarcas pela Volkswagen para veiculos fora da garantia representa concorrencia direta das montadoras no mercado independente de reposicao.",
+      "nota": 90
+    },
+    "N5e623147f55a2ac4": {
+      "tipo": "noticia",
+      "titulo": "PACCAR Parts revela investimento em Centro de Distribuição",
+      "trecho": "Unidade em Ponta Grossa (PR) recebeu investimento de R$ 200 milhões e utiliza sistemas automatizados para gerenciar posições de armazenagem Durante a última edição da Fenatran, a PACCAR Parts destacou sua estrutura de distribuição de peças para caminhões no Brasil. O centro de distribuição de peças...",
+      "data": "23/11/2026",
+      "fonte": "O Mecânico",
+      "url": "https://omecanico.com.br/paccar-parts-revela-investimento-em-centro-de-distribuicao/",
+      "temas": [
+        "Mercado de reposição",
+        "Concorrência",
+        "Logística e abastecimento",
+        "Linha pesada e transporte",
+        "Canal das montadoras (peça genuína)"
+      ],
+      "leitura_previa": "O investimento de R$ 200 milhões da PACCAR Parts em um centro de distribuição automatizado fortalece a rede de suprimentos da montadora e eleva a concorrência na reposição para a linha pesada.",
+      "nota": 87
+    },
+    "Nc4caf839b7165a98": {
+      "tipo": "noticia",
+      "titulo": "SKF Vertevo revela nova identidade visual",
+      "trecho": "Divisão automotiva da SKF mostra nova identidade visual e inicia nova fase como empresa independente. Estreia na bolsa será em dezembro A SKF Vertevo, divisão automotiva da SKF, avança em seu processo de separação e revelou a nova identidade própria. O movimento representa nova etapa na construção...",
+      "data": "23/11/2026",
+      "fonte": "O Mecânico",
+      "url": "https://omecanico.com.br/skf-vertevo-revela-nova-identidade-visual/",
+      "temas": [
+        "Mercado de reposição",
+        "Fusões e aquisições"
+      ],
+      "leitura_previa": "A separacao da divisao automotiva da SKF em empresa independente com estreia na bolsa afeta a governanca e o relacionamento comercial de um importante fabricante de autopeças.",
+      "nota": 80
+    },
+    "Ne1091bd753272415": {
+      "tipo": "noticia",
+      "titulo": "Maioria dos veículos elétricos ainda está na garantia, mas demanda por componentes já desafia a reposição",
+      "trecho": "Avanço do segmento já pressiona o mercado independente de acessórios automotivos e novas demandas chegarão também às oficinas O post Maioria dos veículos elétricos ainda está na garantia, mas demanda por componentes já desafia a reposição apareceu primeiro em Aftemarket Automotivo .",
+      "data": "27/11/2026",
+      "fonte": "Aftermarket Automotivo",
+      "url": "https://aftermarketautomotivo.com.br/maioria-dos-veiculos-eletricos-ainda-esta-na-garantia-mas-demanda-por-componentes-ja-desafia-a-reposicao/",
+      "temas": [
+        "Mercado de reposição",
+        "Eletrificação",
+        "Oficinas e reparação"
+      ],
+      "leitura_previa": "Analisa o impacto da frota de veículos elétricos na demanda futura por componentes no aftermarket independente e nas oficinas mecânicas.",
+      "nota": 75
+    },
+    "N4157bee27ff0afce": {
+      "tipo": "noticia",
+      "titulo": "Setor enxerga na complexidade da frota um novo desafio para o mercado de reposição",
+      "trecho": "A transformação da frota brasileira, a chegada constante de novos modelos, o avanço dos veículos híbridos e elétricos, a pressão por preço e o papel da indústria na qualificação de toda a cadeia foram os eixos centrais do Painel da Indústria, realizado durante o Seminário da Reposição Automotiva...",
+      "data": "27/11/2026",
+      "fonte": "pecamentor.com.br",
+      "url": "https://pecamentor.com.br/setor-enxerga-na-complexidade-da-frota-um-novo-desafio-para-o-mercado-de-reposicao/",
+      "temas": [
+        "Mercado de reposição",
+        "Preços e inflação de peças",
+        "Eletrificação",
+        "Veículos novos",
+        "Frota"
+      ],
+      "leitura_previa": "Analisa o impacto da diversificação e eletrificação da frota sobre a demanda, preços e gestão de portfólio no mercado de reposição de autopeças.",
+      "nota": 75
+    },
+    "N3b20d288db33906f": {
+      "tipo": "noticia",
+      "titulo": "Diretor do Sincopeças Brasil faz Raio-X do Aftermarket Automotivo maranhense",
+      "trecho": "Diferentemente de outras localidades do país, estado ainda vive início de processo de consolidação, conta Elcias Castro The post Diretor do Sincopeças Brasil faz Raio-X do Aftermarket Automotivo maranhense appeared first on .",
+      "data": "23/11/2026",
+      "fonte": "Novo Varejo Automotivo",
+      "url": "https://novovarejoautomotivo.com.br/diretor-do-sincopecas-brasil-faz-raio-x-do-aftermarket-automotivo-maranhense/",
+      "temas": [
+        "Mercado de reposição",
+        "Concorrência"
+      ],
+      "leitura_previa": "Apresenta um panorama regional sobre o mercado de reposição e o processo de consolidação no Maranhão, útil para estratégias de expansão e inteligência de mercado.",
+      "nota": 70
+    }
+  },
+  "indicadores": [
+    {
+      "id": "I_bcb_sgs_3698",
+      "serie_id": "bcb_sgs_3698",
+      "nome": "Câmbio R$/US$ (média mensal)",
+      "unidade": "R$ por US$",
+      "fonte_id": "S03",
+      "observacao": "Afeta o custo das linhas importadas",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 5.1294,
+      "valor_fmt": "R$ 5,13",
+      "var_mes": -0.29739343401947727,
+      "var_mes_fmt": "-0,3%",
+      "var_ano": -4.755361619162568,
+      "var_ano_fmt": "-4,8%",
+      "tipo_variacao": "pct",
+      "frase": "Câmbio R$/US$ (média mensal): R$ 5,13 em out/2026; -0,3% sobre set/2026; -4,8% sobre out/2025"
+    },
+    {
+      "id": "I_bcb_sgs_4390",
+      "serie_id": "bcb_sgs_4390",
+      "nome": "Selic acumulada no mês",
+      "unidade": "% ao mês",
+      "fonte_id": "S02",
+      "observacao": "Custo do capital de giro e do crédito ao varejo de peças",
+      "referencia": "2026-11",
+      "referencia_fmt": "nov/2026",
+      "valor": 0.92,
+      "valor_fmt": "0,92%",
+      "var_mes": -0.15000000000000002,
+      "var_mes_fmt": "-0,15 p.p.",
+      "var_ano": -0.13,
+      "var_ano_fmt": "-0,13 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Selic acumulada no mês: 0,92% em nov/2026; -0,15 p.p. sobre out/2026; -0,13 p.p. sobre nov/2025"
+    },
+    {
+      "id": "I_bcb_sgs_24363",
+      "serie_id": "bcb_sgs_24363",
+      "nome": "IBC-Br (atividade econômica)",
+      "unidade": "índice",
+      "fonte_id": "S01",
+      "observacao": "Prévia do PIB, sem ajuste sazonal: comparar sempre com o mesmo mês do ano anterior",
+      "referencia": "2026-09",
+      "referencia_fmt": "set/2026",
+      "valor": 109.42914,
+      "valor_fmt": "109,4",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": -0.011458157440569217,
+      "var_ano_fmt": "-0,0%",
+      "tipo_variacao": "pct",
+      "frase": "IBC-Br (atividade econômica): 109,4 em set/2026; -0,0% sobre set/2025"
+    },
+    {
+      "id": "I_bcb_sgs_20662",
+      "serie_id": "bcb_sgs_20662",
+      "nome": "Concessões de crédito a pessoas físicas",
+      "unidade": "R$ milhões",
+      "fonte_id": "S04",
+      "observacao": "Sem ajuste sazonal: comparar com o mesmo mês do ano anterior",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 347010.0,
+      "valor_fmt": "R$ 347.010 mi",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": 0.5863989077849352,
+      "var_ano_fmt": "+0,6%",
+      "tipo_variacao": "pct",
+      "frase": "Concessões de crédito a pessoas físicas: R$ 347.010 mi em out/2026; +0,6% sobre out/2025"
+    },
+    {
+      "id": "I_bcb_sgs_21084",
+      "serie_id": "bcb_sgs_21084",
+      "nome": "Inadimplência de pessoas físicas",
+      "unidade": "%",
+      "fonte_id": "S05",
+      "observacao": "Pressão sobre o consumo e o crédito das oficinas e lojas",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": 6.13,
+      "valor_fmt": "6,13%",
+      "var_mes": 0.13999999999999968,
+      "var_mes_fmt": "+0,14 p.p.",
+      "var_ano": 1.1399999999999997,
+      "var_ano_fmt": "+1,14 p.p.",
+      "tipo_variacao": "pp",
+      "frase": "Inadimplência de pessoas físicas: 6,13% em out/2026; +0,14 p.p. sobre set/2026; +1,14 p.p. sobre out/2025"
+    },
+    {
+      "id": "I_anip_reposicao_acum",
+      "serie_id": "anip_reposicao_acum",
+      "nome": "Pneus: vendas para reposição (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, acumulado do ano contra o mesmo período do ano anterior. Só indústria associada: não inclui importados por terceiros",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -13.5,
+      "valor_fmt": "-13,5%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas para reposição (ANIP): -13,5% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    },
+    {
+      "id": "I_anip_total_acum",
+      "serie_id": "anip_total_acum",
+      "nome": "Pneus: vendas totais (ANIP)",
+      "unidade": "% acumulado no ano",
+      "fonte_id": "S14",
+      "observacao": "Unidades, passeio e carga, acumulado do ano contra o mesmo período do ano anterior",
+      "referencia": "2026-10",
+      "referencia_fmt": "out/2026",
+      "valor": -10.4,
+      "valor_fmt": "-10,4%",
+      "var_mes": null,
+      "var_mes_fmt": null,
+      "var_ano": null,
+      "var_ano_fmt": null,
+      "tipo_variacao": "nenhuma",
+      "frase": "Pneus: vendas totais (ANIP): -10,4% no acumulado até out/2026, contra o mesmo período do ano anterior"
+    }
+  ],
+  "tentativas": [
+    {
+      "meta": {
+        "provedor": "gemini",
+        "modelo": "gemini-flash-latest",
+        "modelo_respondeu": "gemini-3.8-flash",
+        "request_id": "Fg4La_fcAovVz7IP_ODOsA8",
+        "uso": {
+          "entrada": 2725,
+          "saida": 618,
+          "raciocinio": 701,
+          "cache_lido": 0
+        },
+        "stop_reason": "STOP",
+        "status": "ok"
+      },
+      "resumo": {
+        "manchete": "Montadoras ampliam avanço sobre o pós-vendas independente enquanto grandes fornecedores reorganizam operações corporativas.",
+        "itens": [
+          {
+            "refs": [
+              "N548e94aa89168a63"
+            ],
+            "o_que_aconteceu": "A Volkswagen lançou a marca Economy+, voltada a veículos fora da garantia com foco inicial em filtros e lubrificantes.",
+            "o_que_mudou": "A fabricante estreia linha própria multimarcas direcionada explicitamente à manutenção independente.",
+            "por_que_importa": "Sinaliza disputa direta de grandes montadoras com distribuidoras nas linhas de alto giro da reposição.",
+            "classificacao": "risco",
+            "o_que_acompanhar": "Política de preços da montadora e velocidade de inclusão de novas famílias de produtos na linha."
+          },
+          {
+            "refs": [
+              "N5e623147f55a2ac4"
+            ],
+            "o_que_aconteceu": "A PACCAR Parts divulgou investimento de R$ 200 milhões em centro de distribuição automatizado em Ponta Grossa (PR).",
+            "o_que_mudou": "Estrutura logística dedicada amplia a capacidade de estocagem e distribuição para a frota de caminhões.",
+            "por_que_importa": "Pode reduzir prazos de entrega e elevar a competitividade das peças genuínas da montadora no segmento pesado.",
+            "classificacao": "atencao",
+            "o_que_acompanhar": "Impacto no nível de serviço e prazos de entrega dos canais concorrentes de pesados."
+          },
+          {
+            "refs": [
+              "Nc4caf839b7165a98"
+            ],
+            "o_que_aconteceu": "A divisão automotiva da SKF adotou a marca SKF Vertevo antes de sua estreia na bolsa em dezembro.",
+            "o_que_mudou": "A operação avança no processo de separação para atuar como empresa totalmente independente.",
+            "por_que_importa": "Mudanças no controle e governança de fabricantes globais podem alterar condições comerciais e contratos de fornecimento.",
+            "classificacao": "neutro",
+            "o_que_acompanhar": "Eventuais ajustes nas tabelas comerciais ou na política de atendimento a distribuidores após o IPO."
+          }
+        ],
+        "nota_sobre_os_dados": "Informações baseadas no noticiário setorial do período, sem divulgação de relatórios consolidados de vendas do aftermarket independente na semana."
+      },
+      "auditoria": {
+        "aprovado": true,
+        "problemas": []
+      }
+    }
+  ],
+  "versao_prompt": "6f39b0e905"
+}

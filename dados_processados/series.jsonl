@@ -256,3 +256,4 @@
 {"id": "bcb_sgs_20662@2026-09", "fonte_id": "S04", "serie_id": "bcb_sgs_20662", "ocorrido_em": "2026-09", "valor": 347749.0, "unidade": "", "publicado_em": null, "coletado_em": "2026-11-27T15:41:49-03:00", "revisao_de": 348745.0}
 {"id": "bcb_sgs_20662@2026-10", "fonte_id": "S04", "serie_id": "bcb_sgs_20662", "ocorrido_em": "2026-10", "valor": 347010.0, "unidade": "", "publicado_em": null, "coletado_em": "2026-11-27T15:41:49-03:00", "revisao_de": null}
 {"id": "bcb_sgs_21084@2026-10", "fonte_id": "S05", "serie_id": "bcb_sgs_21084", "ocorrido_em": "2026-10", "valor": 6.13, "unidade": "", "publicado_em": null, "coletado_em": "2026-11-27T15:41:52-03:00", "revisao_de": null}
+{"id": "bcb_sgs_4390@2026-11", "fonte_id": "S02", "serie_id": "bcb_sgs_4390", "ocorrido_em": "2026-11", "valor": 0.92, "unidade": "", "publicado_em": null, "coletado_em": "2026-11-28T14:22:39-03:00", "revisao_de": 0.87}
